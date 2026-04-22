@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECENYAS - Explore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-w': '#fefefe',
+                        'brand-lw': '#f5f5f5',
+                        'brand-b': '#212121',
+                        'brand-lb': '#333333',
+                        'brand-bu': '#007BFF',
+                        'brand-lbu': '#dbedff',
+                        'brand-ol': '#E0E0E0',
+                        'brand-accent': '#f0f9ff',
+                        'border': '#E0E0E0',
+                        'primary': '#007BFF',
+                        'primary-foreground': '#ffffff',
+                        'muted': '#f5f5f5',
+                        'muted-foreground': '#64748b',
+                        'card': '#ffffff',
+                        'destructive': '#ef4444',
+                        'destructive-foreground': '#ffffff',
+                        'accent': '#f0f9ff'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .category-link.active {
+            background-color: #007BFF;
+            color: #ffffff;
+            border-color: #007BFF;
+        }
+        /* Custom scrollbar for the list if it gets long */
+        .custom-scroll::-webkit-scrollbar { width: 6px; }
+        .custom-scroll::-webkit-scrollbar-track { background: transparent; }
+        .custom-scroll::-webkit-scrollbar-thumb { background-color: #E0E0E0; border-radius: 20px; }
+    </style>
+</head>
+<body class="bg-brand-lw text-brand-b text-lg min-h-screen flex flex-col">
+
+    <header class="sticky top-0 z-50 w-full border-b border-brand-ol bg-brand-w/80 backdrop-blur-md">
+        <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+            <a href="{{ url_for('home') }}" class="flex items-center gap-2">
+    <img 
+        src="{{ url_for('static', filename='logo.PNG') }}" 
+        alt="ECENYAS Logo" 
+        class="h-16 w-auto object-contain"
+    >
+    <span class="text-xl font-semibold tracking-tight text-brand-b">ECENYAS</span>
+</a>
+            <div class="hidden items-center gap-1 md:flex">
+                <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-2 text-base font-medium bg-brand-bu/10 text-brand-bu transition-colors">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">About Us</a>
+            </div>
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-md hover:bg-brand-lw">
+                <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                 <svg id="icon-close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden border-t border-brand-ol bg-brand-w md:hidden">
+            <div class="flex flex-col space-y-1 px-4 py-4">
+                 <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-3 text-base font-medium bg-brand-bu/10 text-brand-bu">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1">
+        <section class="bg-brand-lw/30 pb-20 pt-8">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-8">
+                
+                <div class="rounded-2xl bg-brand-w p-6 shadow-sm mb-8 border border-brand-ol">
+                    <h1 class="text-3xl font-bold text-brand-bu sm:text-4xl">
+                        Explore Sign Language
+                    </h1>
+                    <p class="mt-2 text-lg text-brand-lb/70">
+                        Discover signs across categories, from basic greetings to everyday conversations.
+                    </p>
+
+                    <div class="mt-6 relative flex gap-2">
+                        <div class="relative flex-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-brand-lb/50"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <input id="search-input" type="text" placeholder="Search for a sign..." class="w-full h-12 pl-10 pr-4 rounded-lg border border-brand-ol bg-brand-lw text-lg focus:outline-none focus:ring-2 focus:ring-brand-bu transition-all">
+                        </div>
+                        <button id="search-button" class="px-6 h-12 bg-brand-bu text-brand-w font-medium rounded-lg hover:bg-brand-bu/90 transition-colors text-lg">
+                            Search
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-2" id="categories-container">
+                    <button class="category-link active flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Alphabet">Alphabet</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Numbers">Numbers</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Days and Months">Days and Months</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Greetings and Conversations">Greetings and Conversations</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Pronouns">Pronouns</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Family and People">Family and People</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Emotions">Emotions</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Adjectives">Adjectives</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Verbs">Verbs</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Places">Places</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Food and Drinks">Food and Drinks</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Animals">Animals</button>
+                    <button class="category-link flex items-center gap-2 px-4 py-2 rounded-full border border-brand-bu/20 bg-brand-w text-base font-medium transition-colors hover:bg-brand-bu/10" data-category="Colors">Colors</button>
+                </div>
+            </div>
+
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                
+                <h2 id="current-category-title" class="text-2xl font-bold text-brand-b mb-6">Alphabet</h2>
+
+                <div class="grid gap-8 lg:grid-cols-3">
+                    
+                    <div class="lg:col-span-1">
+                        <div id="signs-list-container" class="grid gap-3 grid-cols-1 custom-scroll max-h-[80vh] overflow-y-auto pr-2 text-lg">
+                            <div class="text-brand-lb/50 text-center py-4">Loading list...</div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-2">
+                        <div id="sign-detail-container" class="sticky top-24">
+                            <div class="rounded-2xl border-2 border-brand-bu/30 bg-brand-accent/50 p-12 text-center flex flex-col items-center justify-center min-h-[400px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-bu/40 mb-4"><path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"/><path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg>
+                                <h3 class="text-xl font-semibold text-brand-b">Select a sign</h3>
+                                <p class="text-brand-lb/70 mt-2 text-lg">Click on any sign from the list on the left to view its details and translations.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-brand-ol bg-brand-lw/30 mt-auto">
+        <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-center text-base text-brand-lb">
+            <p>© 2025 ECENYAS Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const btn = document.getElementById('mobile-menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+        const iconMenu = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        let isOpen = false;
+        if(btn) {
+            btn.addEventListener('click', () => {
+                isOpen = !isOpen;
+                if (isOpen) {
+                    menu.classList.remove('hidden');
+                    iconMenu.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                    iconMenu.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

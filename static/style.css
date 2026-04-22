@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8; /* Ensures the light background is set */
+}
+
+/* Custom Navigation Link Style */
+.nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 1.125rem; /* text-lg */
+    color: #38b5ed; /* brand-blue */
+    border-bottom: 3px solid transparent; 
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom-color: #7f5620; /* brand-brown */
+}
+
+.nav-link.active {
+    font-weight: 700;
+    color: #fc7046; /* brand-orange */
+    border-bottom-color: #fc7046;
+}
+
+/* Main Control Buttons (Base Style for shape, font, transition) */
+.control-btn {
+    padding: 0.75rem 2rem; /* py-3 px-8 equivalent */
+    border-radius: 9999px; /* rounded-full */
+    font-weight: 600;
+    font-size: 1.125rem; /* text-lg */
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: inline-block; /* Essential for padding/sizing on anchor tags */
+    text-align: center; /* Center text within the button */
+    border: 2px solid #7f5620; /* border-2 border-brand-brown */
+}
+.control-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* --- Homepage Styles --- */
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.full-screen-section {
+    min-height: calc(100vh - 68px); 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    position: relative; 
+    padding: 2rem 1rem;
+    padding-bottom: 4rem; /* Added extra padding to the bottom of the section */
+}
+
+
+/* Feature List (for the checkmarks) */
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem; /* mt-6 */
+}
+.feature-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem; /* text-base */
+    color: gray; /* brand-brown */
+    margin-bottom: 0.75rem; /* space-y-3 */
+}
+.feature-list li svg {
+    width: 1.5rem; /* w-6 */
+    height: 1.5rem; /* h-6 */
+    color: #38b5ed; /* brand-blue */
+    margin-right: 0.75rem; /* mr-3 */
+    flex-shrink: 0;
+}
+
+/*
+ * Custom Bounce Animation
+ * (replaces the default 'animate-bounce')
+ */
+
+.custom-bounce {
+  /* You can change '2s' (2 seconds) to '1s' for a faster bounce */
+  animation: gentle-bounce 2s infinite; 
+}
+
+@keyframes gentle-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    /* * THIS IS THE INTENSITY!
+     * Try '-10px' for a small bounce.
+     * Try '-20px' for a bigger bounce.
+     */
+    transform: translateY(-0.5px);
+  }
+}
+
+/* Ensure placeholder text for camera feed is visible */
+#camera-placeholder {
+    font-size: 1.5rem; /* text-lg */
+    font-weight: 600; /* semibold */
+    color: white; /* Ensure it's white as per mockup */
+}

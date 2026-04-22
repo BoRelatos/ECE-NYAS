@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECENYAS - About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-w': '#fefefe',   /* main background */
+                        'brand-lw': '#f5f5f5',  /* secondary background */
+                        'brand-b': '#212121',   /* main text */
+                        'brand-lb': '#333333',  /* subtext */
+                        'brand-bu': '#007BFF',  /* contrast driver blue */
+                        'brand-lbu': '#dbedff', /* SKY BLUE (sub context driver) */
+                        'brand-ol': '#E0E0E0',  /* outline */
+                        'brand-accent': '#f0f9ff', /* light accent */
+                        'border': '#E0E0E0',
+                        'primary': '#007BFF',
+                        'primary-foreground': '#ffffff',
+                        'muted': '#f5f5f5',
+                        'muted-foreground': '#64748b',
+                        'card': '#ffffff',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-brand-w text-brand-b min-h-screen flex flex-col">
+
+    <header class="sticky top-0 z-50 w-full border-b border-brand-ol bg-brand-w/80 backdrop-blur-md">
+        <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+            <a href="{{ url_for('home') }}" class="flex items-center gap-2">
+    <img 
+        src="{{ url_for('static', filename='logo.PNG') }}" 
+        alt="ECENYAS Logo" 
+        class="h-16 w-auto object-contain"
+    >
+    <span class="text-xl font-semibold tracking-tight text-brand-b">ECENYAS</span>
+</a>
+
+            <div class="hidden items-center gap-1 md:flex">
+                <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-2 text-base font-medium bg-brand-bu/10 text-brand-bu transition-colors">About Us</a>
+            </div>
+
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-md hover:bg-brand-lw">
+                <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg id="icon-close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </nav>
+        
+        <div id="mobile-menu" class="hidden border-t border-brand-ol bg-brand-w md:hidden">
+            <div class="flex flex-col space-y-1 px-4 py-4">
+                 <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-3 text-base font-medium bg-brand-bu/10 text-brand-bu">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative py-20 sm:py-28 bg-[url('/static/about-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-brand-bu/80 sm:bg-brand-bu/70"></div> 
+        
+        <div class="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-bold tracking-tight text-brand-w sm:text-5xl">About Us</h1>
+            <p class="mt-6 text-lg text-brand-w/90 max-w-3xl mx-auto leading-relaxed">
+                Empowering seamless communication through advanced deep learning. ECENYAS bridges gaps by translating Filipino and American Sign Language into text, and by converting spoken language into signs. Our comprehensive support includes major Philippine languages: Bicolano, Kapampangan, Cebuano, Hiligaynon, Ilocano, and Waray.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-16 sm:py-24 bg-brand-w">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+                
+                <div class="flex flex-col items-center text-center p-10 py-16 rounded-2xl border-2 border-brand-bu/30 bg-brand-accent/50">
+                    <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-brand-bu/10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-bu"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 12v.01"/><path d="M12 16v.01"/></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-brand-b mb-4">Our Mission</h2>
+                    <p class="text-brand-lb leading-relaxed text-lg">
+                        To empower the Deaf and Hard-of-Hearing community by providing accessible, real-time, and accurate communication tools. We strive to bridge the gap between spoken language and sign language through advanced AI technology.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center text-center p-10 py-16 rounded-2xl border-2 border-brand-bu/30 bg-brand-accent/50">
+                    <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-brand-bu/10">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-bu"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-brand-b mb-4">Our Vision</h2>
+                    <p class="text-brand-lb leading-relaxed text-lg">
+                        A world where communication has no barriers. We envision a society where technology seamlessly integrates sign language into daily interactions, fostering inclusivity and understanding for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 sm:py-24 bg-brand-accent">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-b">Our Core Values</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+                
+                <div class="flex flex-col items-center text-center bg-brand-w rounded-2xl p-8 py-12 border border-brand-ol shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                    <div class="mb-6 p-4 bg-brand-accent rounded-full text-brand-bu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M2 12h20"/><path d="m4.93 4.93 14.14 14.14"/><path d="m19.07 4.93-14.14 14.14"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-b mb-4">Innovation</h3>
+                    <p class="text-brand-lb leading-relaxed text-lg">
+                        Pushing the boundaries of technology to create smart, adaptive solutions for complex communication challenges.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center text-center bg-brand-w rounded-2xl p-8 py-12 border border-brand-ol shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                    <div class="mb-6 p-4 bg-brand-accent rounded-full text-brand-bu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-b mb-4">Inclusivity</h3>
+                    <p class="text-brand-lb leading-relaxed text-lg">
+                        Designing for everyone. We believe accessibility is a right, not a privilege, and we build with that in mind.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center text-center bg-brand-w rounded-2xl p-8 py-12 border border-brand-ol shadow-sm hover:-translate-y-1 transition-transform duration-300">
+                    <div class="mb-6 p-4 bg-brand-accent rounded-full text-brand-bu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-b mb-4">Integrity</h3>
+                    <p class="text-brand-lb leading-relaxed text-lg">
+                        We are committed to data privacy, ethical AI development, and serving our community with transparency.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 sm:py-24 bg-brand-w">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-brand-b mb-12">Meet the Team</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="bg-brand-w p-6 rounded-2xl border-2 border-brand-bu/30 flex flex-col items-center">
+                    <div class="aspect-[2/3] w-full bg-brand-lw rounded-xl mb-4 overflow-hidden flex items-center justify-center">
+                        <img src="/static/team/barlis.jpg" alt="barlis" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-bu">Barlis, Ivy Jhane N.</h3>
+                    <p class="text-sm text-brand-lb font-medium">Project Lead, Machine Learning Engineer</p>
+                </div>
+
+                <div class="bg-brand-w p-6 rounded-2xl border-2 border-brand-bu/30 flex flex-col items-center">
+                    <div class="aspect-[2/3] w-full bg-brand-lw rounded-xl mb-4 overflow-hidden flex items-center justify-center">
+                        <img src="/static/team/fermin.jpg" alt="fermin" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-bu">Fermin, Shenna Mae M.</h3>
+                    <p class="text-sm text-brand-lb font-medium">Web Developer, Web Designer</p>
+                </div>
+
+                <div class="bg-brand-w p-6 rounded-2xl border-2 border-brand-bu/30 flex flex-col items-center">
+                    <div class="aspect-[2/3] w-full bg-brand-lw rounded-xl mb-4 overflow-hidden flex items-center justify-center">
+                        <img src="/static/team/relatos.jpg" alt="relatos" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-bu">Relatos, Renner D.</h3>
+                    <p class="text-sm text-brand-lb font-medium">Lead Machine Learning Engineer</p>
+                </div>
+
+                 <div class="bg-brand-w p-6 rounded-2xl border-2 border-brand-bu/30 flex flex-col items-center">
+                    <div class="aspect-[2/3] w-full bg-brand-lw rounded-xl mb-4 overflow-hidden flex items-center justify-center">
+                        <img src="/static/team/yu.jpg" alt="yu" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-bu">Yu, Angelo Vincent Q.</h3>
+                    <p class="text-sm text-brand-lb font-medium">Neural Machine Translation Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-brand-ol bg-brand-lw/30 mt-auto">
+        <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-center text-sm text-brand-lb">
+            <p>© 2025 ECENYAS Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+        const iconMenu = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        let isOpen = false;
+
+        if(btn) {
+            btn.addEventListener('click', () => {
+                isOpen = !isOpen;
+                if (isOpen) {
+                    menu.classList.remove('hidden');
+                    iconMenu.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                    iconMenu.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

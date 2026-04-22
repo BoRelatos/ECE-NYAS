@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECENYAS - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-w': '#fefefe',
+                        'brand-lw': '#f5f5f5',
+                        'brand-b': '#212121',
+                        'brand-lb': '#333333',
+                        'brand-bu': '#007BFF',
+                        'brand-lbu': '#dbedff',
+                        'brand-ol': '#E0E0E0',
+                        'brand-accent': '#f0f9ff',
+                        'border': '#E0E0E0',
+                        'primary': '#007BFF',
+                        'primary-foreground': '#ffffff',
+                        'muted': '#f5f5f5',
+                        'muted-foreground': '#64748b',
+                        'card': '#ffffff',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-brand-w text-brand-b min-h-screen flex flex-col">
+
+    <header class="sticky top-0 z-50 w-full border-b border-brand-ol bg-brand-w/80 backdrop-blur-md">
+        <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+<a href="{{ url_for('home') }}" class="flex items-center gap-2">
+    <img 
+        src="{{ url_for('static', filename='logo.PNG') }}" 
+        alt="ECENYAS Logo" 
+        class="h-16 w-auto object-contain"
+    >
+    <span class="text-xl font-semibold tracking-tight text-brand-b">ECENYAS</span>
+</a>
+
+            <div class="hidden items-center gap-1 md:flex">
+                <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-2 text-base font-medium transition-colors bg-brand-bu/10 text-brand-bu">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">About Us</a>
+            </div>
+
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-md hover:bg-brand-lw">
+                <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg id="icon-close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </nav>
+
+        <div id="mobile-menu" class="hidden border-t border-brand-ol bg-brand-w md:hidden">
+            <div class="flex flex-col space-y-1 px-4 py-4">
+                <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-3 text-base font-medium bg-brand-bu/10 text-brand-bu">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden bg-brand-w py-24 sm:py-32">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-bu/5 via-brand-w to-brand-w"></div>
+        
+        <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+                <div class="mb-8 inline-flex items-center gap-2 rounded-full border border-brand-bu/20 bg-brand-bu/5 px-4 py-1.5 text-sm font-medium text-brand-bu">
+                    <span class="relative flex h-2 w-2">
+                        <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-bu opacity-75"></span>
+                        <span class="relative inline-flex h-2 w-2 rounded-full bg-brand-bu"></span>
+                    </span>
+                    AI-Powered Translation
+                </div>
+
+                <h1 class="text-balance text-4xl font-bold tracking-tight text-brand-b sm:text-5xl lg:text-6xl mb-6">
+                    Welcome to
+                    <span class="mt-2 block text-brand-bu">ECENYAS</span>
+                </h1>
+
+                <p class="mx-auto mt-6 text-lg font-medium text-brand-b/80">
+                    Bridging communities, one sign at a time.
+                </p>
+
+                <p class="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-brand-lb sm:text-lg">
+                    Empowering seamless communication through advanced deep learning. ECENYAS bridges gaps by translating Filipino and American Sign Language into text, and by converting spoken language into signs. Our comprehensive support includes major Philippine languages: Bicolano, Kapampangan, Cebuano, Hiligaynon, Ilocano, and Waray.
+                </p>
+
+                <div class="mt-10 flex items-center justify-center">
+                    <a href="{{ url_for('explore_page') }}" class="group inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-bu text-brand-w hover:bg-brand-bu/90 h-11 rounded-md px-8">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 h-5 w-5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        Learn Sign Language
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-brand-accent py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl text-center mb-16">
+                <h2 class="text-balance text-3xl font-bold tracking-tight text-brand-b sm:text-4xl">
+                    Our Features
+                </h2>
+                <p class="mt-4 text-pretty text-lg text-brand-lb">
+                    Choose from our powerful translation tools designed to make communication accessible for everyone.
+                </p>
+            </div>
+
+            <div class="mx-auto grid max-w-6xl gap-8 md:grid-cols-3">
+                
+                <div class="flex flex-col rounded-xl border border-brand-ol bg-brand-w shadow-sm transition-shadow hover:shadow-lg">
+                    <div class="flex flex-col space-y-1.5 p-8">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-bu/10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-brand-bu"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                        </div>
+                        <h3 class="font-semibold leading-none tracking-tight text-2xl pt-4">Sign to Text</h3>
+                    </div>
+                    <div class="p-8 pt-0 flex flex-1 flex-col">
+                        <p class="text-base leading-relaxed text-brand-lb">
+                            Use your camera to capture sign language (ASL/FSL) gestures and instantly convert them to text in multiple languages.
+                        </p>
+                        <ul class="mt-6 space-y-3">
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Features ASL and FSL</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Real-time recognition</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Emotion detection</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Multi-language</li>
+                        </ul>
+                        <div class="mt-8 pt-4">
+                            <a href="{{ url_for('sign_to_text_page') }}" class="group w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none bg-brand-bu text-brand-w hover:bg-brand-bu/90 h-10 px-4 py-2">
+                                Try Sign to Text
+                                <svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl border border-brand-ol bg-brand-w shadow-sm transition-shadow hover:shadow-lg">
+                    <div class="flex flex-col space-y-1.5 p-8">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-bu/10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-brand-bu"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                        </div>
+                        <h3 class="font-semibold leading-none tracking-tight text-2xl pt-4">Speech to Sign</h3>
+                    </div>
+                    <div class="p-8 pt-0 flex flex-1 flex-col">
+                        <p class="text-base leading-relaxed text-brand-lb">
+                            Convert speech (Filipino/English) instantly to American and Filipino Sign Language animations.
+                        </p>
+                        <ul class="mt-6 space-y-3">
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Speech recognition</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Bilingual auto-switch</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Animated output</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Regional translation</li>
+                        </ul>
+                        <div class="mt-8 pt-4">
+                            <a href="{{ url_for('speech_to_sign_page') }}" class="group w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none bg-brand-bu text-brand-w hover:bg-brand-bu/90 h-10 px-4 py-2">
+                                Try Speech to Sign
+                                <svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl border border-brand-ol bg-brand-w shadow-sm transition-shadow hover:shadow-lg">
+                    <div class="flex flex-col space-y-1.5 p-8">
+                        <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-bu/10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-brand-bu"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        </div>
+                        <h3 class="font-semibold leading-none tracking-tight text-2xl pt-4">Sign Language Dictionary</h3>
+                    </div>
+                    <div class="p-8 pt-0 flex flex-1 flex-col">
+                        <p class="text-base leading-relaxed text-brand-lb">
+                            Explore a comprehensive dictionary of terms. Learn greetings, emotions, family members, and more in ASL and FSL.
+                        </p>
+                        <ul class="mt-6 space-y-3">
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> 15+ sign categories</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> ASL and FSL GIFs</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Multi-dialect support</li>
+                            <li class="flex items-center gap-3 text-sm text-brand-lb"><svg class="h-4 w-4 shrink-0 text-brand-bu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Easy search</li>
+                        </ul>
+                        <div class="mt-8 pt-4">
+                            <a href="{{ url_for('explore_page') }}" class="group w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none bg-brand-bu text-brand-w hover:bg-brand-bu/90 h-10 px-4 py-2">
+                                Explore Dictionary
+                                <svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-brand-w py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl text-center mb-16">
+                <h2 class="text-balance text-3xl font-bold tracking-tight text-brand-b sm:text-4xl">
+                    How it works
+                </h2>
+                <p class="mt-4 text-pretty text-lg text-brand-lb">
+                    Get started in three simple steps and experience seamless communication.
+                </p>
+            </div>
+
+            <div class="mx-auto max-w-4xl">
+                <div class="relative">
+                    <div class="absolute left-8 top-0 hidden h-full w-px bg-brand-ol sm:left-1/2 sm:-ml-px md:block"></div>
+
+                    <div class="space-y-12">
+                        <div class="relative flex flex-col items-start gap-6 sm:flex-row">
+                            <div class="flex-1 text-right sm:text-right hidden sm:block">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-8 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">01</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Choose Your Mode</h3>
+                                    <p class="mt-2 text-brand-lb">Select whether you want to translate sign language to text or convert speech/text to sign language.</p>
+                                </div>
+                            </div>
+                            <div class="flex-1 sm:hidden">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-6 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">01</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Choose Your Mode</h3>
+                                    <p class="mt-2 text-brand-lb">Select whether you want to translate sign language to text or convert speech/text to sign language.</p>
+                                </div>
+                            </div>
+
+                            <div class="relative z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-4 border-brand-w bg-brand-bu text-xl font-bold text-brand-w shadow-lg">
+                                01
+                            </div>
+                            <div class="flex-1 sm:block hidden"></div>
+                        </div>
+
+                        <div class="relative flex flex-col items-start gap-6 sm:flex-row-reverse">
+                            <div class="flex-1 sm:text-left hidden sm:block">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-8 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">02</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Capture or Speak</h3>
+                                    <p class="mt-2 text-brand-lb">Use your camera to record sign language gestures, or speak/type the message you want to translate.</p>
+                                </div>
+                            </div>
+                            <div class="flex-1 sm:hidden">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-6 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">02</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Capture or Speak</h3>
+                                    <p class="mt-2 text-brand-lb">Use your camera to record sign language gestures, or speak/type the message you want to translate.</p>
+                                </div>
+                            </div>
+
+                            <div class="relative z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-4 border-brand-w bg-brand-bu text-xl font-bold text-brand-w shadow-lg">
+                                02
+                            </div>
+                            <div class="flex-1 sm:block hidden"></div>
+                        </div>
+
+                        <div class="relative flex flex-col items-start gap-6 sm:flex-row">
+                             <div class="flex-1 text-right sm:text-right hidden sm:block">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-8 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">03</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Get Instant Results</h3>
+                                    <p class="mt-2 text-brand-lb">Our system processes your input in real-time and delivers accurate translations instantly.</p>
+                                </div>
+                            </div>
+                            <div class="flex-1 sm:hidden">
+                                <div class="rounded-xl border border-brand-ol bg-brand-w p-6 shadow-sm">
+                                    <span class="text-sm font-semibold text-brand-bu">03</span>
+                                    <h3 class="mt-2 text-xl font-semibold text-brand-b">Get Instant Results</h3>
+                                    <p class="mt-2 text-brand-lb">Our system processes your input in real-time and delivers accurate translations instantly.</p>
+                                </div>
+                            </div>
+
+                            <div class="relative z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-4 border-brand-w bg-brand-bu text-xl font-bold text-brand-w shadow-lg">
+                                03
+                            </div>
+                            <div class="flex-1 sm:block hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-brand-bu py-20 sm:py-28">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl text-center">
+                <h2 class="text-balance text-3xl font-bold tracking-tight text-brand-w sm:text-4xl">
+                    Ready to break communication barriers?
+                </h2>
+                <p class="mt-4 text-pretty text-lg text-brand-w/80">
+                    Join thousands of users who are already using ECENYAS to connect with the deaf and hard-of-hearing community.
+                </p>
+                <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                    <a href="{{ url_for('sign_to_text_page') }}" class="group inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none bg-brand-w text-brand-bu hover:bg-brand-w/90 h-11 px-8 w-full sm:w-auto">
+                        Start Translating
+                        <svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="{{ url_for('explore_page') }}" class="w-full sm:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none border border-brand-w/30 bg-transparent text-brand-w hover:bg-brand-w/10 h-11 px-8">
+                        Explore Sign Language
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-brand-ol bg-brand-lw/30">
+        <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+            <div class="grid gap-8 md:grid-cols-3">
+                <div>
+                    <a href="{{ url_for('home') }}" class="flex items-center gap-2">
+    <img 
+        src="{{ url_for('static', filename='logo.PNG') }}" 
+        alt="ECENYAS Logo" 
+        class="h-16 w-auto object-contain"
+    >
+    <span class="text-xl font-semibold tracking-tight text-brand-b">ECENYAS</span>
+</a>
+                    <p class="mt-4 text-sm leading-relaxed text-brand-lb">
+                        Bridging communities, one sign at a time.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-sm font-semibold text-brand-b">Product</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li><a href="{{ url_for('sign_to_text_page') }}" class="text-sm text-brand-lb transition-colors hover:text-brand-bu">Sign to Text</a></li>
+                        <li><a href="{{ url_for('speech_to_sign_page') }}" class="text-sm text-brand-lb transition-colors hover:text-brand-bu">Speech to Sign</a></li>
+                        <li><a href="{{ url_for('explore_page') }}" class="text-sm text-brand-lb transition-colors hover:text-brand-bu">Explore</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-sm font-semibold text-brand-b">Company</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li><a href="{{ url_for('about_us_page') }}" class="text-sm text-brand-lb transition-colors hover:text-brand-bu">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-12 border-t border-brand-ol pt-8">
+                <p class="text-center text-sm text-brand-lb">
+                    © 2025 ECENYAS Project. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+        const iconMenu = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        let isOpen = false;
+
+        btn.addEventListener('click', () => {
+            isOpen = !isOpen;
+            if (isOpen) {
+                menu.classList.remove('hidden');
+                iconMenu.classList.add('hidden');
+                iconClose.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+                iconMenu.classList.remove('hidden');
+                iconClose.classList.add('hidden');
+            }
+        });
+    </script>
+
+</body>
+</html>

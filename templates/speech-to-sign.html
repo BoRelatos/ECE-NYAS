@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECENYAS - Speech to Sign</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-w': '#fefefe',
+                        'brand-lw': '#f5f5f5',
+                        'brand-b': '#212121',
+                        'brand-lb': '#333333',
+                        'brand-bu': '#007BFF',
+                        'brand-lbu': '#dbedff',
+                        'brand-ol': '#E0E0E0',
+                        'brand-accent': '#f0f9ff',
+                        'border': '#E0E0E0',
+                        'primary': '#007BFF',
+                        'primary-foreground': '#ffffff',
+                        'muted': '#f5f5f5',
+                        'muted-foreground': '#64748b',
+                        'card': '#ffffff',
+                        'destructive': '#ef4444',
+                        'destructive-foreground': '#ffffff',
+                        'input': '#E0E0E0',
+                        'accent': '#f0f9ff'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-brand-lw text-brand-b text-lg min-h-screen flex flex-col">
+
+    <header class="sticky top-0 z-50 w-full border-b border-brand-ol bg-brand-w/80 backdrop-blur-md">
+        <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+            <a href="{{ url_for('home') }}" class="flex items-center gap-2">
+    <img 
+        src="{{ url_for('static', filename='logo.PNG') }}" 
+        alt="ECENYAS Logo" 
+        class="h-16 w-auto object-contain"
+    >
+    <span class="text-xl font-semibold tracking-tight text-brand-b">ECENYAS</span>
+</a>
+
+            <div class="hidden items-center gap-1 md:flex">
+                <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-2 text-base font-medium transition-colors bg-brand-bu/10 text-brand-bu">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-2 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b transition-colors">About Us</a>
+            </div>
+
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-md hover:bg-brand-lw">
+                <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                 <svg id="icon-close" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden border-t border-brand-ol bg-brand-w md:hidden">
+            <div class="flex flex-col space-y-1 px-4 py-4">
+                 <a href="{{ url_for('home') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Home</a>
+                <a href="{{ url_for('sign_to_text_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Sign to Text</a>
+                <a href="{{ url_for('speech_to_sign_page') }}" class="rounded-lg px-4 py-3 text-base font-medium bg-brand-bu/10 text-brand-bu">Speech to Sign</a>
+                <a href="{{ url_for('explore_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">Explore</a>
+                <a href="{{ url_for('about_us_page') }}" class="rounded-lg px-4 py-3 text-base font-medium text-brand-lb hover:bg-brand-lw hover:text-brand-b">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1">
+        <section class="bg-brand-lw/30 min-h-screen flex flex-col py-8 sm:py-12">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full flex flex-col flex-1">
+                <div class="rounded-2xl bg-brand-w p-6 shadow-lg sm:p-8 flex flex-col flex-1 border border-brand-ol">
+                    
+                    <div class="mb-6">
+                        <h1 class="text-3xl font-bold text-brand-bu sm:text-4xl">Speech to Sign</h1>
+                        <p class="mt-2 text-brand-lb/70">
+                            Use your microphone to capture speech and see the translation.
+                        </p>
+                    </div>
+
+                    <div class="grid gap-8 lg:grid-cols-2 flex-1 mb-6">
+                        
+                        <div class="rounded-2xl border-2 border-brand-bu/30 bg-brand-w p-5 flex flex-col h-full">
+                            <h2 class="mb-2 font-semibold text-xl text-brand-b">Speak or Type:</h2>
+
+                            <div class="flex-1 mb-4 relative">
+                                <textarea id="speech-text" placeholder="Your speech will appear here. You may also type your text here." class="w-full h-full rounded-xl border border-brand-ol bg-brand-lw p-4 text-brand-b placeholder-brand-lb/50 focus:outline-none focus:ring-2 focus:ring-brand-bu resize-none text-lg"></textarea>
+                            </div>
+
+                            <div class="flex gap-4 mt-auto">
+                                <button id="start-mic-btn" class="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-brand-b text-brand-w font-medium rounded-xl hover:bg-brand-b/90 transition-colors shadow-sm text-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+                                    Start
+                                </button>
+                                
+                                <button id="stop-mic-btn" class="hidden">Stop</button> <button id="translate-btn" class="flex-1 px-6 py-3 bg-brand-bu text-brand-w font-medium rounded-xl hover:bg-brand-bu/90 transition-colors shadow-sm text-lg">
+                                    Translate
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="rounded-2xl border-2 border-brand-bu/30 bg-brand-accent/50 p-5 flex flex-col h-full">
+                            <div class="flex justify-between items-center mb-4">
+                                <label class="font-semibold text-xl text-brand-b">Translations:</label>
+                                <span class="text-sm text-brand-lb font-mono bg-brand-w px-2 py-1 rounded border border-brand-ol">Time: <span id="translation-time">0.00s</span></span>
+                            </div>
+                            
+                            <div class="flex-1 rounded-xl border border-brand-ol bg-brand-w p-5 overflow-y-auto">
+                                <div class="space-y-4 text-base">
+                                    <div><span class="font-medium text-brand-b">English:</span> <span id="english-translation" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Filipino:</span> <span id="filipino-translation" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Bicolano:</span> <span id="bicolano-text" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Cebuano:</span> <span id="cebuano-text" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Hiligaynon:</span> <span id="hiligaynon-text" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Ilocano:</span> <span id="iloko-text" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Kapampangan:</span> <span id="kapampangan-text" class="text-brand-lb">...</span></div>
+                                    <div><span class="font-medium text-brand-b">Waray:</span> <span id="waray-text" class="text-brand-lb">...</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rounded-2xl border-2 border-brand-bu/30 bg-brand-accent/50 p-6 flex-1 flex flex-col">
+                        <div class="mb-6 flex items-center justify-center gap-4">
+                            <h2 class="font-semibold text-xl text-brand-b text-center flex-1">ASL</h2>
+                            <h2 class="font-semibold text-xl text-brand-b text-center flex-1">FSL</h2>
+                        </div>
+
+                        <div class="grid gap-8 lg:grid-cols-2 flex-1">
+                            <div class="aspect-[3/2] flex items-center justify-center rounded-xl bg-brand-w border border-brand-ol transition-all overflow-hidden relative shadow-sm">
+                                <img id="asl-gif" src="https://placehold.co/400x300/E0E0E0/333333?text=ASL+Sign" alt="ASL Sign" class="w-full h-full object-contain">
+                            </div>
+
+                            <div class="aspect-[3/2] flex items-center justify-center rounded-xl bg-brand-w border border-brand-ol transition-all overflow-hidden relative shadow-sm">
+                                <img id="fsl-gif" src="https://placehold.co/400x300/E0E0E0/333333?text=FSL+Sign" alt="FSL Sign" class="w-full h-full object-contain">
+                            </div>
+                        </div>
+
+                        <button id="refresh-mic-btn" class="w-full py-4 text-lg mt-8 flex items-center justify-center gap-2 bg-brand-bu text-brand-w font-medium rounded-xl hover:bg-brand-bu/90 transition-colors shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div class="mt-8 rounded-xl border border-brand-ol bg-brand-lw/50 p-6">
+                        <h2 class="mb-4 text-xl font-semibold text-brand-b">How to Use</h2>
+                        <ol class="space-y-3 text-brand-lb/80">
+                            <li class="flex gap-3">
+                                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-bu text-sm font-medium text-brand-w">1</span>
+                                <span>Click <strong>"Start"</strong> to enable your microphone.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-bu text-sm font-medium text-brand-w">2</span>
+                                <span>Speak clearly into your device or type your text in the box above.</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-bu text-sm font-medium text-brand-w">3</span>
+                                <span>Click <strong>"Translate"</strong> to see the sign language animations and text translations.</span>
+                            </li>
+                             <li class="flex gap-3">
+                                <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-bu text-sm font-medium text-brand-w">4</span>
+                                <span>Click <strong>"Refresh"</strong> to clear everything and start over.</span>
+                            </li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-brand-ol bg-brand-lw/30 mt-auto">
+        <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 text-center text-base text-brand-lb">
+            <p>© 2025 ECENYAS Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+        const iconMenu = document.getElementById('icon-menu');
+        const iconClose = document.getElementById('icon-close');
+        let isOpen = false;
+
+        if(btn) {
+            btn.addEventListener('click', () => {
+                isOpen = !isOpen;
+                if (isOpen) {
+                    menu.classList.remove('hidden');
+                    iconMenu.classList.add('hidden');
+                    iconClose.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                    iconMenu.classList.remove('hidden');
+                    iconClose.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

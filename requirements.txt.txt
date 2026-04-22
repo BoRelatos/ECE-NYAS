@@ -1,0 +1,27 @@
+# ===============================
+# ECENYAS SL+FER FINAL REQUIREMENTS
+# STABLE PRODUCTION VERSION
+# ===============================
+
+# --- Web Framework ---
+flask==3.0.3
+flask-cors==4.0.1
+waitress==3.0.0
+gunicorn==21.2.0
+
+# --- Core ML Stack (TensorFlow) ---
+tensorflow==2.13.0
+tensorboard==2.13.0
+numpy==1.24.3
+pandas==2.0.3
+opencv-python==4.9.0.80
+mediapipe==0.10.9
+
+# --- Emotion Recognition ---
+deepface==0.0.93
+
+# --- Utilities ---
+pillow==10.3.0
+scipy==1.10.1
+tqdm==4.66.2
+typing-extensions==4.5.0

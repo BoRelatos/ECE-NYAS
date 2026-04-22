@@ -1,0 +1,1828 @@
+{
+  "Alphabet": [
+    {
+      "english": "A", "filipino": "A",
+      "asl_gif": "/static/ASL_GIFS/alphabet/A.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/A.gif",
+      "translations": { "bicolano": "A", "cebuano": "A", "hiligaynon": "A",
+                        "ilocano": "A", "kapampangan": "A", "waray": "A" }
+    },
+    {
+      "english": "B", "filipino": "B",
+      "asl_gif": "/static/ASL_GIFS/alphabet/B.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/B.gif",
+      "translations": { "bicolano": "B", "cebuano": "B", "hiligaynon": "B",
+                        "ilocano": "B", "kapampangan": "B", "waray": "B" }
+    },
+    {
+      "english": "C", "filipino": "C",
+      "asl_gif": "/static/ASL_GIFS/alphabet/C.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/C.gif",
+      "translations": { "bicolano": "C", "cebuano": "C", "hiligaynon": "C",
+                        "ilocano": "C", "kapampangan": "C", "waray": "C" }
+    },
+    {
+      "english": "D", "filipino": "D",
+      "asl_gif": "/static/ASL_GIFS/alphabet/D.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/D.gif",
+      "translations": { "bicolano": "D", "cebuano": "D", "hiligaynon": "D",
+                        "ilocano": "D", "kapampangan": "D", "waray": "D" }
+    },
+    {
+      "english": "E", "filipino": "E",
+      "asl_gif": "/static/ASL_GIFS/alphabet/E.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/E.gif",
+      "translations": { "bicolano": "E", "cebuano": "E", "hiligaynon": "E",
+                        "ilocano": "E", "kapampangan": "E", "waray": "E" }
+    },
+    {
+      "english": "F", "filipino": "F",
+      "asl_gif": "/static/ASL_GIFS/alphabet/F.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/F.gif",
+      "translations": { "bicolano": "F", "cebuano": "F", "hiligaynon": "F",
+                        "ilocano": "F", "kapampangan": "F", "waray": "F" }
+    },
+    {
+      "english": "G", "filipino": "G",
+      "asl_gif": "/static/ASL_GIFS/alphabet/G.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/G.gif",
+      "translations": { "bicolano": "G", "cebuano": "G", "hiligaynon": "G",
+                        "ilocano": "G", "kapampangan": "G", "waray": "G" }
+    },
+    {
+      "english": "H", "filipino": "H",
+      "asl_gif": "/static/ASL_GIFS/alphabet/H.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/H.gif",
+      "translations": { "bicolano": "H", "cebuano": "H", "hiligaynon": "H",
+                        "ilocano": "H", "kapampangan": "H", "waray": "H" }
+    },
+    {
+      "english": "I", "filipino": "I",
+      "asl_gif": "/static/ASL_GIFS/alphabet/I.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/I.gif",
+      "translations": { "bicolano": "I", "cebuano": "I", "hiligaynon": "I",
+                        "ilocano": "I", "kapampangan": "I", "waray": "I" }
+    },
+    {
+      "english": "J", "filipino": "J",
+      "asl_gif": "/static/ASL_GIFS/alphabet/J.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/J.gif",
+      "translations": { "bicolano": "J", "cebuano": "J", "hiligaynon": "J",
+                        "ilocano": "J", "kapampangan": "J", "waray": "J" }
+    },
+    {
+      "english": "K", "filipino": "K",
+      "asl_gif": "/static/ASL_GIFS/alphabet/K.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/K.gif",
+      "translations": { "bicolano": "K", "cebuano": "K", "hiligaynon": "K",
+                        "ilocano": "K", "kapampangan": "K", "waray": "K" }
+    },
+    {
+      "english": "L", "filipino": "L",
+      "asl_gif": "/static/ASL_GIFS/alphabet/L.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/L.gif",
+      "translations": { "bicolano": "L", "cebuano": "L", "hiligaynon": "L",
+                        "ilocano": "L", "kapampangan": "L", "waray": "L" }
+    },
+    {
+      "english": "M", "filipino": "M",
+      "asl_gif": "/static/ASL_GIFS/alphabet/M.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/M.gif",
+      "translations": { "bicolano": "M", "cebuano": "M", "hiligaynon": "M",
+                        "ilocano": "M", "kapampangan": "M", "waray": "M" }
+    },
+    {
+      "english": "N", "filipino": "N",
+      "asl_gif": "/static/ASL_GIFS/alphabet/N.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/N.gif",
+      "translations": { "bicolano": "N", "cebuano": "N", "hiligaynon": "N",
+                        "ilocano": "N", "kapampangan": "N", "waray": "N" }
+    },
+    {
+      "english": "O", "filipino": "O",
+      "asl_gif": "/static/ASL_GIFS/alphabet/O.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/O.gif",
+      "translations": { "bicolano": "O", "cebuano": "O", "hiligaynon": "O",
+                        "ilocano": "O", "kapampangan": "O", "waray": "O" }
+    },
+    {
+      "english": "P", "filipino": "P",
+      "asl_gif": "/static/ASL_GIFS/alphabet/P.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/P.gif",
+      "translations": { "bicolano": "P", "cebuano": "P", "hiligaynon": "P",
+                        "ilocano": "P", "kapampangan": "P", "waray": "P" }
+    },
+    {
+      "english": "Q", "filipino": "Q",
+      "asl_gif": "/static/ASL_GIFS/alphabet/Q.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/Q.gif",
+      "translations": { "bicolano": "Q", "cebuano": "Q", "hiligaynon": "Q",
+                        "ilocano": "Q", "kapampangan": "Q", "waray": "Q" }
+    },
+    {
+      "english": "R", "filipino": "R",
+      "asl_gif": "/static/ASL_GIFS/alphabet/R.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/R.gif",
+      "translations": { "bicolano": "R", "cebuano": "R", "hiligaynon": "R",
+                        "ilocano": "R", "kapampangan": "R", "waray": "R" }
+    },
+    {
+      "english": "S", "filipino": "S",
+      "asl_gif": "/static/ASL_GIFS/alphabet/S.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/S.gif",
+      "translations": { "bicolano": "S", "cebuano": "S", "hiligaynon": "S",
+                        "ilocano": "S", "kapampangan": "S", "waray": "S" }
+    },
+    {
+      "english": "T", "filipino": "T",
+      "asl_gif": "/static/ASL_GIFS/alphabet/T.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/T.gif",
+      "translations": { "bicolano": "T", "cebuano": "T", "hiligaynon": "T",
+                        "ilocano": "T", "kapampangan": "T", "waray": "T" }
+    },
+    {
+      "english": "U", "filipino": "U",
+      "asl_gif": "/static/ASL_GIFS/alphabet/U.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/U.gif",
+      "translations": { "bicolano": "U", "cebuano": "U", "hiligaynon": "U",
+                        "ilocano": "U", "kapampangan": "U", "waray": "U" }
+    },
+    {
+      "english": "V", "filipino": "V",
+      "asl_gif": "/static/ASL_GIFS/alphabet/V.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/V.gif",
+      "translations": { "bicolano": "V", "cebuano": "V", "hiligaynon": "V",
+                        "ilocano": "V", "kapampangan": "V", "waray": "V" }
+    },
+    {
+      "english": "W", "filipino": "W",
+      "asl_gif": "/static/ASL_GIFS/alphabet/W.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/W.gif",
+      "translations": { "bicolano": "W", "cebuano": "W", "hiligaynon": "W",
+                        "ilocano": "W", "kapampangan": "W", "waray": "W" }
+    },
+    {
+      "english": "X", "filipino": "X",
+      "asl_gif": "/static/ASL_GIFS/alphabet/X.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/X.gif",
+      "translations": { "bicolano": "X", "cebuano": "X", "hiligaynon": "X",
+                        "ilocano": "X", "kapampangan": "X", "waray": "X" }
+    },
+    {
+      "english": "Y", "filipino": "Y",
+      "asl_gif": "/static/ASL_GIFS/alphabet/Y.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/Y.gif",
+      "translations": { "bicolano": "Y", "cebuano": "Y", "hiligaynon": "Y",
+                        "ilocano": "Y", "kapampangan": "Y", "waray": "Y" }
+    },
+    {
+      "english": "Z", "filipino": "Z",
+      "asl_gif": "/static/ASL_GIFS/alphabet/Z.gif", "fsl_gif": "/static/FSL_GIFS/alphabet/Z.gif",
+      "translations": { "bicolano": "Z", "cebuano": "Z", "hiligaynon": "Z",
+                        "ilocano": "Z", "kapampangan": "Z", "waray": "Z" }
+    }
+  ],
+  "Numbers": [
+    {
+      "english": "one", "filipino": "isa",
+      "asl_gif": "/static/ASL_GIFS/numbers/one.gif", "fsl_gif": "/static/FSL_GIFS/numbers/isa.gif",
+      "translations": { "bicolano": "usad", "cebuano": "usa", "hiligaynon": "isa",
+                        "ilocano": "maysa", "kapampangan": "metung", "waray": "usa" }
+    },
+    {
+      "english": "two", "filipino": "dalawa",
+      "asl_gif": "/static/ASL_GIFS/numbers/two.gif", "fsl_gif": "/static/FSL_GIFS/numbers/dalawa.gif",
+      "translations": { "bicolano": "darwa", "cebuano": "duha", "hiligaynon": "dalawa",
+                        "ilocano": "dua", "kapampangan": "adwa", "waray": "doha" }
+    },
+    {
+      "english": "three", "filipino": "tatlo",
+      "asl_gif": "/static/ASL_GIFS/numbers/three.gif", "fsl_gif": "/static/FSL_GIFS/numbers/tatlo.gif",
+      "translations": { "bicolano": "tulo", "cebuano": "tulo", "hiligaynon": "tatlo",
+                        "ilocano": "tallo", "kapampangan": "atlu", "waray": "tulo" }
+    },
+    {
+      "english": "four", "filipino": "apat",
+      "asl_gif": "/static/ASL_GIFS/numbers/four.gif", "fsl_gif": "/static/FSL_GIFS/numbers/apat.gif",
+      "translations": { "bicolano": "upat", "cebuano": "upat", "hiligaynon": "apat",
+                        "ilocano": "upat", "kapampangan": "apat", "waray": "upat" }
+    },
+    {
+      "english": "five", "filipino": "lima",
+      "asl_gif": "/static/ASL_GIFS/numbers/five.gif", "fsl_gif": "/static/FSL_GIFS/numbers/lima.gif",
+      "translations": { "bicolano": "lima", "cebuano": "lima", "hiligaynon": "lima",
+                        "ilocano": "lima", "kapampangan": "lima", "waray": "lima" }
+    },
+    {
+      "english": "six", "filipino": "anim",
+      "asl_gif": "/static/ASL_GIFS/numbers/six.gif", "fsl_gif": "/static/FSL_GIFS/numbers/anim.gif",
+      "translations": { "bicolano": "unom", "cebuano": "unom", "hiligaynon": "anim",
+                        "ilocano": "inem", "kapampangan": "anam", "waray": "unom" }
+    },
+    {
+      "english": "seven", "filipino": "pito",
+      "asl_gif": "/static/ASL_GIFS/numbers/seven.gif", "fsl_gif": "/static/FSL_GIFS/numbers/pito.gif",
+      "translations": { "bicolano": "pito", "cebuano": "pito", "hiligaynon": "pito",
+                        "ilocano": "pito", "kapampangan": "pitu", "waray": "pito" }
+    },
+    {
+      "english": "eight", "filipino": "walo",
+      "asl_gif": "/static/ASL_GIFS/numbers/eight.gif", "fsl_gif": "/static/FSL_GIFS/numbers/walo.gif",
+      "translations": { "bicolano": "walo", "cebuano": "walo", "hiligaynon": "walo",
+                        "ilocano": "walo", "kapampangan": "walu", "waray": "walo" }
+    },
+    {
+      "english": "nine", "filipino": "siyam",
+      "asl_gif": "/static/ASL_GIFS/numbers/nine.gif", "fsl_gif": "/static/FSL_GIFS/numbers/siyam.gif",
+      "translations": { "bicolano": "siyam", "cebuano": "siyam", "hiligaynon": "siyam",
+                        "ilocano": "siyam", "kapampangan": "siyam", "waray": "siyam" }
+    },
+    {
+      "english": "ten", "filipino": "sampu",
+      "asl_gif": "/static/ASL_GIFS/numbers/ten.gif", "fsl_gif": "/static/FSL_GIFS/numbers/sampu.gif",
+      "translations": { "bicolano": "sampulo", "cebuano": "napulo", "hiligaynon": "sampu",
+                        "ilocano": "sangapolo", "kapampangan": "apulu", "waray": "napulo" }
+    },
+    {
+      "english": "eleven", "filipino": "labing isa",
+      "asl_gif": "/static/ASL_GIFS/numbers/eleven.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_isa.gif",
+      "translations": { "bicolano": "onse", "cebuano": "onse", "hiligaynon": "labing isa",
+                        "ilocano": "sangapulo ket masa", "kapampangan": "apulu at metung", "waray": "onse" }
+    },
+    {
+      "english": "twelve", "filipino": "labing dalawa",
+      "asl_gif": "/static/ASL_GIFS/numbers/twelve.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_dalawa.gif",
+      "translations": { "bicolano": "dose", "cebuano": "dose", "hiligaynon": "labing dalawa",
+                        "ilocano": "sangapulo ket dua", "kapampangan": "apulu at adwa", "waray": "dose" }
+    },
+    {
+      "english": "thirteen", "filipino": "labing tatlo",
+      "asl_gif": "/static/ASL_GIFS/numbers/thirteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_tatlo.gif",
+      "translations": { "bicolano": "trese", "cebuano": "trese", "hiligaynon": "labing tatlo",
+                        "ilocano": "Sanga pulo ket tallo", "kapampangan": "apulu at atlu", "waray": "trese" }
+    },
+    {
+      "english": "fourteen", "filipino": "labing apat",
+      "asl_gif": "/static/ASL_GIFS/numbers/fourteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_apat.gif",
+      "translations": { "bicolano": "katorse", "cebuano": "katorse", "hiligaynon": "labing apat",
+                        "ilocano": "sangapulo ket upat", "kapampangan": "apulu at apat", "waray": "katorse" }
+    },
+    {
+      "english": "fifteen", "filipino": "labing lima",
+      "asl_gif": "/static/ASL_GIFS/numbers/fifteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_lima.gif",
+      "translations": { "bicolano": "kinse", "cebuano": "kinse", "hiligaynon": "labing lima",
+                        "ilocano": "sangapulo ket lima", "kapampangan": "apulu at lima", "waray": "kinse" }
+    },
+    {
+      "english": "sixteen", "filipino": "labing anim",
+      "asl_gif": "/static/ASL_GIFS/numbers/sixteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_anim.gif",
+      "translations": { "bicolano": "desisain", "cebuano": "desisais", "hiligaynon": "labing anim",
+                        "ilocano": "sangapulo ket inem", "kapampangan": "apulu at anam", "waray": "desisais" }
+    },
+    {
+      "english": "seventeen", "filipino": "labing pito",
+      "asl_gif": "/static/ASL_GIFS/numbers/seventeen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_pito.gif",
+      "translations": { "bicolano": "desisyete", "cebuano": "desisyete", "hiligaynon": "labing pito",
+                        "ilocano": "sangapulo ket pito", "kapampangan": "apulu at pitu", "waray": "desisyete" }
+    },
+    {
+      "english": "eighteen", "filipino": "labing walo",
+      "asl_gif": "/static/ASL_GIFS/numbers/eighteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_walo.gif",
+      "translations": { "bicolano": "desiotso", "cebuano": "desiotso", "hiligaynon": "labing walo",
+                        "ilocano": "sangapulo ket walo", "kapampangan": "apulu at walu", "waray": "desi-otso" }
+    },
+    {
+      "english": "nineteen", "filipino": "labing siyam",
+      "asl_gif": "/static/ASL_GIFS/numbers/nineteen.gif", "fsl_gif": "/static/FSL_GIFS/numbers/labing_siyam.gif",
+      "translations": { "bicolano": "desinuebe", "cebuano": "desinuybe", "hiligaynon": "labing siyam",
+                        "ilocano": "sangapulo ket siyam", "kapampangan": "apulu at siyam", "waray": "desinuebe" }
+    },
+    {
+      "english": "twenty", "filipino": "dalawampu",
+      "asl_gif": "/static/ASL_GIFS/numbers/twenty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/dalawampu.gif",
+      "translations": { "bicolano": "baynte", "cebuano": "baynte", "hiligaynon": "dalawampu",
+                        "ilocano": "duapulo ket", "kapampangan": "duplu", "waray": "bente" }
+    },
+    {
+      "english": "thirty", "filipino": "tatlumpu",
+      "asl_gif": "/static/ASL_GIFS/numbers/thirty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/tatlumpu.gif",
+      "translations": { "bicolano": "traynta", "cebuano": "traynta", "hiligaynon": "tatlumpu",
+                        "ilocano": "tallopolo", "kapampangan": "talupu", "waray": "trenta" }
+    },
+    {
+      "english": "fourty", "filipino": "apatnapu",
+      "asl_gif": "/static/ASL_GIFS/numbers/fourty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/apatnapu.gif",
+      "translations": { "bicolano": "kwarenta", "cebuano": "kwarenta", "hiligaynon": "apatnapu",
+                        "ilocano": "upat a pulo", "kapampangan": "apat a pulu", "waray": "kwarenta" }
+    },
+    {
+      "english": "fifty", "filipino": "limampu",
+      "asl_gif": "/static/ASL_GIFS/numbers/fifty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/limampu.gif",
+      "translations": { "bicolano": "singkwenta", "cebuano": "singkwenta", "hiligaynon": "limampu",
+                        "ilocano": "lima a pulo", "kapampangan": "lima a pulu", "waray": "singkwenta" }
+    },
+    {
+      "english": "sixty", "filipino": "animnapu",
+      "asl_gif": "/static/ASL_GIFS/numbers/sixty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/animnapu.gif",
+      "translations": { "bicolano": "saisinta", "cebuano": "saisenta", "hiligaynon": "animnapu",
+                        "ilocano": "inem a pulo", "kapampangan": "anam a pulu", "waray": "saysenta" }
+    },
+    {
+      "english": "seventy", "filipino": "pitumpu",
+      "asl_gif": "/static/ASL_GIFS/numbers/seventy.gif", "fsl_gif": "/static/FSL_GIFS/numbers/pitumpu.gif",
+      "translations": { "bicolano": "syetinta", "cebuano": "syetenta", "hiligaynon": "pitumpu",
+                        "ilocano": "pito a pulo", "kapampangan": "pitu a pulu", "waray": "setenta" }
+    },
+    {
+      "english": "eighty", "filipino": "walumpu",
+      "asl_gif": "/static/ASL_GIFS/numbers/eighty.gif", "fsl_gif": "/static/FSL_GIFS/numbers/walumpu.gif",
+      "translations": { "bicolano": "otsinta", "cebuano": "otsenta", "hiligaynon": "walumpu",
+                        "ilocano": "walo a pulo", "kapampangan": "walu a pulu", "waray": "otsenta" }
+    },
+    {
+      "english": "ninety", "filipino": "siyamnapu",
+      "asl_gif": "/static/ASL_GIFS/numbers/ninety.gif", "fsl_gif": "/static/FSL_GIFS/numbers/siyamnapu.gif",
+      "translations": { "bicolano": "nobenta", "cebuano": "nubyenta", "hiligaynon": "siyamnapu",
+                        "ilocano": "siyam a pulo", "kapampangan": "siyam a pulu", "waray": "nobenta" }
+    },
+    {
+      "english": "one hundred", "filipino": "isang daan",
+      "asl_gif": "/static/ASL_GIFS/numbers/one_hundred.gif", "fsl_gif": "/static/FSL_GIFS/numbers/isang_daan.gif",
+      "translations": { "bicolano": "sanggatos", "cebuano": "usa ka gatos", "hiligaynon": "isang daan",
+                        "ilocano": "sangagasut", "kapampangan": "metung a dalan", "waray": "syen" }
+    }
+  ],
+  "Days and Months": [
+    {
+      "english": "Monday", "filipino": "Lunes",
+      "asl_gif": "/static/ASL_GIFS/days and months/monday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/lunes.gif",
+      "translations": { "bicolano": "Lunes", "cebuano": "Lunes", "hiligaynon": "Lunes",
+                        "ilocano": "Lunes", "kapampangan": "Lunes", "waray": "Lunes" }
+    },
+    {
+      "english": "Tuesday", "filipino": "Martes",
+      "asl_gif": "/static/ASL_GIFS/days and months/tuesday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/martes.gif",
+      "translations": { "bicolano": "Martes", "cebuano": "Martes", "hiligaynon": "Martes",
+                        "ilocano": "Martes", "kapampangan": "Martes", "waray": "Martes" }
+    },
+    {
+      "english": "Wednesday", "filipino": "Miyerkules",
+      "asl_gif": "/static/ASL_GIFS/days and months/wednesday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/miyerkules.gif",
+      "translations": { "bicolano": "Miyerkules", "cebuano": "Miyerkules", "hiligaynon": "Miyerkules",
+                        "ilocano": "Miyerkules", "kapampangan": "Miyerkules", "waray": "Miyerkoles" }
+    },
+    {
+      "english": "Thursday", "filipino": "Huwebes",
+      "asl_gif": "/static/ASL_GIFS/days and months/thursday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/huwebes.gif",
+      "translations": { "bicolano": "Huwebes", "cebuano": "Huwebes", "hiligaynon": "Huwebes",
+                        "ilocano": "Huwebes", "kapampangan": "Huwebes", "waray": "Huybes" }
+    },
+    {
+      "english": "Friday", "filipino": "Biyernes",
+      "asl_gif": "/static/ASL_GIFS/days and months/friday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/biyernes.gif",
+      "translations": { "bicolano": "Biyernes", "cebuano": "Biyernes", "hiligaynon": "Biyernes",
+                        "ilocano": "Biyernes", "kapampangan": "Biyernes", "waray": "Byernes" }
+    },
+    {
+      "english": "Saturday", "filipino": "Sabado",
+      "asl_gif": "/static/ASL_GIFS/days and months/saturday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/sabado.gif",
+      "translations": { "bicolano": "Sabado", "cebuano": "Sabado", "hiligaynon": "Sabado",
+                        "ilocano": "Sabado", "kapampangan": "Sabadu", "waray": "Sabado" }
+    },
+    {
+      "english": "Sunday", "filipino": "Linggo",
+      "asl_gif": "/static/ASL_GIFS/days and months/sunday.gif", "fsl_gif": "/static/FSL_GIFS/days and months/linggo.gif",
+      "translations": { "bicolano": "Dominggo", "cebuano": "Dominggo", "hiligaynon": "Linggo",
+                        "ilocano": "Dominggo", "kapampangan": "Duminggu", "waray": "Domingo" }
+    },
+    {
+      "english": "January", "filipino": "Enero",
+      "asl_gif": "/static/ASL_GIFS/days and months/january.gif", "fsl_gif": "/static/FSL_GIFS/days and months/enero.gif",
+      "translations": { "bicolano": "Enero", "cebuano": "Enero", "hiligaynon": "Enero",
+                        "ilocano": "Enero", "kapampangan": "Enero", "waray": "Enero" }
+    },
+    {
+      "english": "February", "filipino": "Pebrero",
+      "asl_gif": "/static/ASL_GIFS/days and months/february.gif", "fsl_gif": "/static/FSL_GIFS/days and months/pebrero.gif",
+      "translations": { "bicolano": "Pebrero", "cebuano": "Pebrero", "hiligaynon": "Pebrero",
+                        "ilocano": "Pebrero", "kapampangan": "Pebrero", "waray": "Pebrero" }
+    },
+    {
+      "english": "March", "filipino": "Marso",
+      "asl_gif": "/static/ASL_GIFS/days and months/march.gif", "fsl_gif": "/static/FSL_GIFS/days and months/marso.gif",
+      "translations": { "bicolano": "Marso", "cebuano": "Marso", "hiligaynon": "Marso",
+                        "ilocano": "Marso", "kapampangan": "Marso", "waray": "Marso" }
+    },
+    {
+      "english": "April", "filipino": "Abril",
+      "asl_gif": "/static/ASL_GIFS/days and months/april.gif", "fsl_gif": "/static/FSL_GIFS/days and months/abril.gif",
+      "translations": { "bicolano": "Abril", "cebuano": "Abril", "hiligaynon": "Abril",
+                        "ilocano": "Abril", "kapampangan": "Abril", "waray": "Abril" }
+    },
+    {
+      "english": "May", "filipino": "Mayo",
+      "asl_gif": "/static/ASL_GIFS/days and months/may.gif", "fsl_gif": "/static/FSL_GIFS/days and months/mayo.gif",
+      "translations": { "bicolano": "Mayo", "cebuano": "Mayo", "hiligaynon": "Mayo",
+                        "ilocano": "Mayo", "kapampangan": "Mayo", "waray": "Mayo" }
+    },
+    {
+      "english": "June", "filipino": "Hunyo",
+      "asl_gif": "/static/ASL_GIFS/days and months/june.gif", "fsl_gif": "/static/FSL_GIFS/days and months/hunyo.gif",
+      "translations": { "bicolano": "Hunyo", "cebuano": "Hunyo", "hiligaynon": "Hunyo",
+                        "ilocano": "Hunyo", "kapampangan": "Hunyu", "waray": "Hunyo" }
+    },
+    {
+      "english": "July", "filipino": "Hulyo",
+      "asl_gif": "/static/ASL_GIFS/days and months/july.gif", "fsl_gif": "/static/FSL_GIFS/days and months/hulyo.gif",
+      "translations": { "bicolano": "Hulyu", "cebuano": "Hulyo", "hiligaynon": "Hulyo",
+                        "ilocano": "Hulyo", "kapampangan": "Hulyu", "waray": "Hulyo" }
+    },
+    {
+      "english": "August", "filipino": "Agusto",
+      "asl_gif": "/static/ASL_GIFS/days and months/august.gif", "fsl_gif": "/static/FSL_GIFS/days and months/agusto.gif",
+      "translations": { "bicolano": "Agosto", "cebuano": "Agosto", "hiligaynon": "Agosto",
+                        "ilocano": "Agosto", "kapampangan": "Agosto", "waray": "Agosto" }
+    },
+    {
+      "english": "September", "filipino": "Setyembre",
+      "asl_gif": "/static/ASL_GIFS/days and months/september.gif", "fsl_gif": "/static/FSL_GIFS/days and months/setyembre.gif",
+      "translations": { "bicolano": "Setyembre", "cebuano": "Setyembre", "hiligaynon": "Setyembre",
+                        "ilocano": "Setyembre", "kapampangan": "Setyembre", "waray": "Setyembre" }
+    },
+    {
+      "english": "October", "filipino": "Oktubre",
+      "asl_gif": "/static/ASL_GIFS/days and months/october.gif", "fsl_gif": "/static/FSL_GIFS/days and months/oktubre.gif",
+      "translations": { "bicolano": "Oktubre", "cebuano": "Oktubre", "hiligaynon": "Oktubre",
+                        "ilocano": "Oktubre", "kapampangan": "Oktubre", "waray": "Oktubre" }
+    },
+    {
+      "english": "November", "filipino": "Nobyembre",
+      "asl_gif": "/static/ASL_GIFS/days and months/november.gif", "fsl_gif": "/static/FSL_GIFS/days and months/nobyembre.gif",
+      "translations": { "bicolano": "Nobyembre", "cebuano": "Nobyembre", "hiligaynon": "Nobyembre",
+                        "ilocano": "Nobyembre", "kapampangan": "Nobyembre", "waray": "Nobyembre" }
+    },
+    {
+      "english": "December", "filipino": "Disyembre",
+      "asl_gif": "/static/ASL_GIFS/days and months/december.gif", "fsl_gif": "/static/FSL_GIFS/days and months/disyembre.gif",
+      "translations": { "bicolano": "Disyembre", "cebuano": "Disyembre", "hiligaynon": "Disyembre",
+                        "ilocano": "Disyembre", "kapampangan": "Disyembre", "waray": "Desyembre" }
+    }
+  ],
+  "Greetings and Conversations": [
+    {
+      "english": "Hello", "filipino": "Hello",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/hello.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/hello.gif",
+      "translations": { "bicolano": "Hello", "cebuano": "Hello", "hiligaynon": "Hello",
+                        "ilocano": "Hello", "kapampangan": "Hello", "waray": "Hello" }
+    },
+    {
+      "english": "Good morning", "filipino": "Magandang umaga",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/good_morning.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/magandang_umaga.gif",
+      "translations": { "bicolano": "Maray na ramrag", "cebuano": "Maayong buntag", "hiligaynon": "Maayong aga",
+                        "ilocano": "Naimbag a bigat", "kapampangan": "Mayap a abak", "waray": "Maupay nga aga" }
+    },
+    {
+      "english": "Good afternoon", "filipino": "Magandang hapon",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/good_afternoon.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/magandang_hapon.gif",
+      "translations": { "bicolano": "Maray na apon", "cebuano": "Maayong hapon", "hiligaynon": "Maayong hapon",
+                        "ilocano": "Naimbag a malem", "kapampangan": "Mayap a gatpanapun", "waray": "Maupay nga kulop" }
+    },
+    {
+      "english": "Good evening", "filipino": "Magandang gabi",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/good_evening.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/magandang_gabi.gif",
+      "translations": { "bicolano": "Maray na gab'e", "cebuano": "Maayong gabii", "hiligaynon": "Maayong gab-e",
+                        "ilocano": "Naimbag a rabii", "kapampangan": "Mayap a bengi", "waray": "Maupay nga gab-i" }
+    },
+    {
+      "english": "How are you", "filipino": "Kumusta ka",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/how_are_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/kumusta_ka.gif",
+      "translations": { "bicolano": "Unta", "cebuano": "Kumusta ka", "hiligaynon": "Kumusta ka",
+                        "ilocano": "Kumusta ka", "kapampangan": "Komusta ka", "waray": "Kumusta ka" }
+    },
+    {
+      "english": "I am fine", "filipino": "Mabuti naman ako",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_am_fine.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/mabuti_naman_ako.gif",
+      "translations": { "bicolano": "Maray man", "cebuano": "Maayo man ko", "hiligaynon": "Ayo man ako",
+                        "ilocano": "Nasayaat met", "kapampangan": "Masanmetung ku", "waray": "Maupay man ako" }
+    },
+    {
+      "english": "I am feeling bad", "filipino": "Masama ang pakiramdam ko",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_am_feeling_bad.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/masama_ang_pakiramdam_ko.gif",
+      "translations": { "bicolano": "Maraot an pagmati ko", "cebuano": "Sakit akong gibati", "hiligaynon": "Malain ang pamatyag ko",
+                        "ilocano": "Madi ti riknak", "kapampangan": "Marok ku panamdaman", "waray": "Maraot an ankon inaabat" }
+    },
+    {
+      "english": "Are you okay", "filipino": "Ayos ka lang",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/are_you_okay.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ayos_ka_lang.gif",
+      "translations": { "bicolano": "Ayos ka lang", "cebuano": "Okey ka ra", "hiligaynon": "Maayo ka bala",
+                        "ilocano": "Okeyka kadi", "kapampangan": "Ayus kamo", "waray": "Maupay ka la" }
+    },
+    {
+      "english": "I am okay", "filipino": "Ayos lang ako",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_am_okay.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ayos_lang_ako.gif",
+      "translations": { "bicolano": "Uda problema", "cebuano": "Okey ra", "hiligaynon": "Ayos lang ako",
+                        "ilocano": "Ayos lang", "kapampangan": "Okey mu", "waray": "Maupay la" }
+    },
+    {
+      "english": "Bye", "filipino": "Paalam",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/bye.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/paalam.gif",
+      "translations": { "bicolano": "Dios magbalos", "cebuano": "Adyos", "hiligaynon": "Paalam",
+                        "ilocano": "Pakada", "kapampangan": "Pañapani", "waray": "Babay" }
+    },
+    {
+      "english": "See you", "filipino": "Kita tayo",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/see_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/kita_tayo.gif",
+      "translations": { "bicolano": "Sa sunod na pagbayadan", "cebuano": "Magkita ta", "hiligaynon": "Kit-anayta",
+                        "ilocano": "Agkita tan to", "kapampangan": "Mikit kata", "waray": "Magkita kita" }
+    },
+    {
+      "english": "Take care", "filipino": "Ingat",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/take_care.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ingat.gif",
+      "translations": { "bicolano": "Pagmaan", "cebuano": "Amping", "hiligaynon": "Halong andam",
+                        "ilocano": "Agannadka", "kapampangan": "Mimingat", "waray": "Paghirot" }
+    },
+    {
+      "english": "Thank you", "filipino": "Salamat",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/thank_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/salamat.gif",
+      "translations": { "bicolano": "Salamat", "cebuano": "Salamat", "hiligaynon": "Salamat",
+                        "ilocano": "Agyamanak", "kapampangan": "Salamat", "waray": "Salamat" }
+    },
+    {
+      "english": "You are welcome", "filipino": "Walang anuman",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/you_are_welcome.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/walang_anuman.gif",
+      "translations": { "bicolano": "Uda problema", "cebuano": "Walay sapayan", "hiligaynon": "Walang anuman",
+                        "ilocano": "Awan anyaman", "kapampangan": "Alang nanuman", "waray": "Waray sapayan" }
+    },
+    {
+      "english": "Please", "filipino": "Pakiusap",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/please.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/pakiusap.gif",
+      "translations": { "bicolano": "Pasuyo", "cebuano": "Palihug", "hiligaynon": "Palihog",
+                        "ilocano": "Pangngaasi", "kapampangan": "Makisabi", "waray": "Alayon" }
+    },
+    {
+      "english": "Sorry", "filipino": "Paumanhin",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/sorry.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/paumanhin.gif",
+      "translations": { "bicolano": "Pasenya", "cebuano": "Pasayloa ko", "hiligaynon": "Pasayluha ako",
+                        "ilocano": "Agpakawanak", "kapampangan": "Pasensya na", "waray": "Pasayloa ako" }
+    },
+    {
+      "english": "What is your name", "filipino": "Ano ang pangalan mo",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/what_is_your_name.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ano_ang_pangalan_mo.gif",
+      "translations": { "bicolano": "Uno ngaran mo", "cebuano": "Unsa imong ngalan", "hiligaynon": "Ang imo ngalan",
+                        "ilocano": "Ania ti naganmo", "kapampangan": "Nanu ing lagyu mu", "waray": "Ano it imo ngaran" }
+    },
+    {
+      "english": "My name is", "filipino": "Ang pangalan ko",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/my_name_is.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ang_pangalan_ko.gif",
+      "translations": { "bicolano": "Ah ngaran ko", "cebuano": "Ang akong ngalan", "hiligaynon": "Ang ngalan ko",
+                        "ilocano": "Ti naganko", "kapampangan": "Ing lagyu ku", "waray": "An akon ngaran" }
+    },
+    {
+      "english": "Happy to meet you", "filipino": "Masayang makikila ka",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/happy_to_meet_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/masayang_makikila_ka.gif",
+      "translations": { "bicolano": "Maray na nabisto ta ika", "cebuano": "Maayo nga nagkaila ta", "hiligaynon": "Nalipay ako nga nakilala ka",
+                        "ilocano": "Naragsakak a maam-ammoka", "kapampangan": "Masaya kung akilala daka", "waray": "Maupay nga makikila ka" }
+    },
+    {
+      "english": "Where do you live", "filipino": "Saan ka nakatira",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/where_do_you_live.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/saan_ka_nakatira.gif",
+      "translations": { "bicolano": "Saen  ka nakaistar", "cebuano": "Asa ka nagpuyo", "hiligaynon": "Diin ka ga puyo",
+                        "ilocano": "Taga ano ka", "kapampangan": "Nokarin ka makatuknang", "waray": "Diin ka naukoy" }
+    },
+    {
+      "english": "I live in", "filipino": "Nakatira ako sa",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_live_in.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/nakatira_ako_sa.gif",
+      "translations": { "bicolano": "Nakaistar ako sa", "cebuano": "Nagpuyo ko sa", "hiligaynon": "Nagapuyo ako sa",
+                        "ilocano": "Agnanaedak idiay", "kapampangan": "Manuknangan ku", "waray": "Naukoy ako ha" }
+    },
+    {
+      "english": "Where are you from", "filipino": "Saan ka nagmula",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/where_are_you_from.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/saan_ka_nagmula.gif",
+      "translations": { "bicolano": "Taga sari ika", "cebuano": "Asa ka gikan", "hiligaynon": "Diin ka naghalin",
+                        "ilocano": "Taga ano ka", "kapampangan": "Taga nokarin ka", "waray": "Taga diin ka" }
+    },
+    {
+      "english": "I am from", "filipino": "Nagmula ako",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_am_from.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/nagmula_ako.gif",
+      "translations": { "bicolano": "Taga ako", "cebuano": "Gikan ko", "hiligaynon": "Halin ako",
+                        "ilocano": "Naggapuak", "kapampangan": "Ibat ku", "waray": "Tikang ako ha" }
+    },
+    {
+      "english": "How old are you", "filipino": "Ilang taon ka na",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/how_old_are_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ilang_taon_ka_na.gif",
+      "translations": { "bicolano": "Pirang taon nayka", "cebuano": "Pila imong edad", "hiligaynon": "Pila ka tuig edad mo",
+                        "ilocano": "Mano ti tawenmon", "kapampangan": "Pilan nakang banwa", "waray": "Pira na an imo edad" }
+    },
+    {
+      "english": "What happened", "filipino": "Anong nangyari",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/what_happened.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/anong_nangyari.gif",
+      "translations": { "bicolano": "Anong nangyari", "cebuano": "Unsay nahitabo", "hiligaynon": "Ano natabo",
+                        "ilocano": "Ania napasamak", "kapampangan": "Nanung milyari", "waray": "Ano an nahitabo" }
+    },
+    {
+      "english": "What are you doing", "filipino": "Anong ginagawa mo",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/what_are_you_doing.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/anong_ginagawa_mo.gif",
+      "translations": { "bicolano": "Uno ginigibo mo", "cebuano": "Unsay imong gibuhat", "hiligaynon": "Anong ginahimo mo",
+                        "ilocano": "Ania ti ar-aramidem", "kapampangan": "Nanu ing gagawan mu", "waray": "Ano an imo ginbubuhat" }
+    },
+    {
+      "english": "Where are you going", "filipino": "Saan ka papunta",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/where_are_you_going.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/saan_ka_papunta.gif",
+      "translations": { "bicolano": "Pisari ika", "cebuano": "Asa ka paingon", "hiligaynon": "Diin ka makadto",
+                        "ilocano": "Papanam", "kapampangan": "Nokarin ka munta", "waray": "Makain ka" }
+    },
+    {
+      "english": "Do you understand", "filipino": "Naiintindihan mo ba",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/do_you_understand.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/naiintindihan_mo_ba.gif",
+      "translations": { "bicolano": "Naintindihan mo ba", "cebuano": "Nakasabot ka ba", "hiligaynon": "Ka intindi ka ba",
+                        "ilocano": "Naawatam", "kapampangan": "Ayntindyan mu ba", "waray": "Naiintyindihan mo ba" }
+    },
+    {
+      "english": "Again", "filipino": "Pakiulit",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/again.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/pakiulit.gif",
+      "translations": { "bicolano": "Pakiulit", "cebuano": "Palihug usba", "hiligaynon": "Paliwat",
+                        "ilocano": "Pakiulit", "kapampangan": "Pakiulit pin", "waray": "Alayon pag-utro" }
+    },
+    {
+      "english": "Deaf", "filipino": "Deaf",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/deaf.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/deaf.gif",
+      "translations": { "bicolano": "Diri ko maintindihan", "cebuano": "Wala ko kasabot", "hiligaynon": "Indo ko ka intindi",
+                        "ilocano": "Diak maawatan", "kapampangan": "Eku ku ayntindyan", "waray": "Diri ko nakaiintyindihan" }
+    },
+    {
+      "english": "Hard of Hearing", "filipino": "Hard of Hearing",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/hard_of_hearing.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/hard_of_hearing.gif",
+      "translations": { "bicolano": "Pakiulit", "cebuano": "Palihug usba", "hiligaynon": "Paliwat",
+                        "ilocano": "Pangngaasiyo ta uliten", "kapampangan": "Pakiulit pin", "waray": "Alayon pag-utro" }
+    },
+    {
+      "english": "Hearing", "filipino": "Hearing",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/hearing.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/hearing.gif",
+      "translations": { "bicolano": "", "cebuano": "Unsa imong ngalan", "hiligaynon": "",
+                        "ilocano": "Panagdengngeg", "kapampangan": "", "waray": "" }
+    },
+    {
+      "english": "I am learning sign language", "filipino": "Nag aaral ako ng sign language",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_am_learning_sign_language.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/nag_aaral_ako_ng_sign_language.gif",
+      "translations": { "bicolano": "Nag aadal ako aa sign language", "cebuano": "Nagtuon ko og sign language", "hiligaynon": "Nagato on ako sang kumpas nga hambalanon",
+                        "ilocano": "Agad-adalek ti sign language", "kapampangan": "Manigaral kung sign language", "waray": "Nakaaram sin senyas nga istorya" }
+    },
+    {
+      "english": "Who", "filipino": "Sino",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/who.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/sino.gif",
+      "translations": { "bicolano": "Isay", "cebuano": "Kinsa", "hiligaynon": "Sin-o",
+                        "ilocano": "Siasino", "kapampangan": "Ninu", "waray": "Hin-o" }
+    },
+    {
+      "english": "What", "filipino": "Ano",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/what.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ano.gif",
+      "translations": { "bicolano": "Uno", "cebuano": "Unsa imong ngalan", "hiligaynon": "Ano",
+                        "ilocano": "Ania", "kapampangan": "Nanu", "waray": "nano" }
+    },
+    {
+      "english": "Where", "filipino": "Saan",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/where.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/saan.gif",
+      "translations": { "bicolano": "Sari", "cebuano": "Asa", "hiligaynon": "Diin",
+                        "ilocano": "Sadino", "kapampangan": "Nokarin", "waray": "Diin" }
+    },
+    {
+      "english": "When", "filipino": "Kailan",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/when.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/kailan.gif",
+      "translations": { "bicolano": "Kuno", "cebuano": "Kanus-a", "hiligaynon": "San-o",
+                        "ilocano": "Kaano", "kapampangan": "Kapilan", "waray": "San-o" }
+    },
+    {
+      "english": "Why", "filipino": "Bakit",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/why.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/bakit.gif",
+      "translations": { "bicolano": "Ngata", "cebuano": "Ngano", "hiligaynon": "Nga-a",
+                        "ilocano": "Apay", "kapampangan": "Bakit", "waray": "Kay-ano" }
+    },
+    {
+      "english": "How", "filipino": "Paano",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/how.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/paano.gif",
+      "translations": { "bicolano": "Pauno", "cebuano": "Giunsa", "hiligaynon": "Paano",
+                        "ilocano": "Kasano", "kapampangan": "Makananu", "waray": "Paunan-o" }
+    },
+    {
+      "english": "How many", "filipino": "Ilan",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/how_many.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ilan.gif",
+      "translations": { "bicolano": "Pira", "cebuano": "Pila", "hiligaynon": "Pila",
+                        "ilocano": "Mano", "kapampangan": "Pilang", "waray": "Pira" }
+    },
+    {
+      "english": "Which", "filipino": "Alin",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/which.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/alin.gif",
+      "translations": { "bicolano": "Arin", "cebuano": "Hain", "hiligaynon": "Diin",
+                        "ilocano": "Ania kadagitoy", "kapampangan": "Sanu", "waray": "Arin" }
+    },
+    {
+      "english": "I love you", "filipino": "Mahal kita",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_love_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/mahal_kita.gif",
+      "translations": { "bicolano": "Payaba ta ika", "cebuano": "Gihigugma tika", "hiligaynon": "Ginahigugma ta ka",
+                        "ilocano": "Ay-ayaten ka", "kapampangan": "Kaluguran daka", "waray": "Hinihigugma ko ikaw" }
+    },
+    {
+      "english": "I like you", "filipino": "Gusto kita",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/i_like_you.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/gusto_kita.gif",
+      "translations": { "bicolano": "Gusto ta ika", "cebuano": "Ganahan ko nimo", "hiligaynon": "Giusto ko ikaw",
+                        "ilocano": "Kursunadak sika", "kapampangan": "Buri daka", "waray": "Karuyag ko ikaw" }
+    },
+    {
+      "english": "Happy Birthday", "filipino": "Maligayang Kaarawan",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/happy_birthday.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/maligayang_kaarawan.gif",
+      "translations": { "bicolano": "Maogmang Pagkamundag", "cebuano": "Malipayong Adlaw nga Natawhan", "hiligaynon": "Masadya nga Kaadlawan",
+                        "ilocano": "Naragsak a Pannakasangay Mo", "kapampangan": "Masayang Kebaitan", "waray": "Malipayon nga Kaadlawan" }
+    },
+    {
+      "english": "Happy New Year", "filipino": "Maligayang Bagong Taon",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/happy_new_year.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/maligayang_bagong_taon.gif",
+      "translations": { "bicolano": "Manigong Bagong Taon", "cebuano": "Malipayong Bag-ong Tuig", "hiligaynon": "Masadya nga Bag-ong Tuig",
+                        "ilocano": "Naragsak a Baru nga Tawen", "kapampangan": "Masayang Bayung Banwa", "waray": "Malipayon nga Bag-o nga Tuig" }
+    },
+    {
+      "english": "Happy Anniversary", "filipino": "Maligayang Anibersaryo",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/happy_anniversary.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/maligayang_anibersaryo.gif",
+      "translations": { "bicolano": "Maogmang Anibersaryo", "cebuano": "Malipayong Anibersaryo", "hiligaynon": "Masadya nga Anibersaryo",
+                        "ilocano": "Naragrak nga Anibersaryo", "kapampangan": "Masayang Anibersaryo", "waray": "Malipayon nga Anibersaryo" }
+    },
+    {
+      "english": "Merry Christmas", "filipino": "Maligayang Pasko",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/merry_christmas.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/maligayang_pasko.gif",
+      "translations": { "bicolano": "Maogmang Pasko", "cebuano": "Maayong Pasko", "hiligaynon": "Masadya nga Paskwa",
+                        "ilocano": "Naragsak a Pascua", "kapampangan": "Maligayang Pasku", "waray": "Maupay nga Pasko" }
+    },
+    {
+      "english": "Congratulations", "filipino": "Pagbati",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/congratulations.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/pagbati.gif",
+      "translations": { "bicolano": "Rukyaw", "cebuano": "Pahalipay", "hiligaynon": "Pahalipay",
+                        "ilocano": "Kablaaw", "kapampangan": "Pagbati", "waray": "Pahalipay" }
+    },
+    {
+      "english": "Yes", "filipino": "Oo",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/yes.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/oo.gif",
+      "translations": { "bicolano": "Iyo", "cebuano": "Oo", "hiligaynon": "Huo",
+                        "ilocano": "Wen", "kapampangan": "Awa", "waray": "Oo" }
+    },
+    {
+      "english": "No", "filipino": "Hindi",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/no.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/hindi.gif",
+      "translations": { "bicolano": "Dai", "cebuano": "Dili", "hiligaynon": "Indi",
+                        "ilocano": "Haan", "kapampangan": "Ali", "waray": "Diri" }
+    },
+    {
+      "english": "Maybe", "filipino": "Siguro",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/maybe.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/siguro.gif",
+      "translations": { "bicolano": "Tibaad", "cebuano": "Tingali", "hiligaynon": "Basi",
+                        "ilocano": "Ngata", "kapampangan": "Malyari", "waray": "Bangin" }
+    },
+    {
+      "english": "Alright", "filipino": "Ayos",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/alright.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/ayos.gif",
+      "translations": { "bicolano": "Ayos", "cebuano": "Ok ra", "hiligaynon": "Ayo",
+                        "ilocano": "Mayat", "kapampangan": "Ayus", "waray": "Sige" }
+    },
+    {
+      "english": "No problem", "filipino": "Walang problema",
+      "asl_gif": "/static/ASL_GIFS/greetings and conversations/no_problem.gif", "fsl_gif": "/static/FSL_GIFS/greetings and conversations/walang_problema.gif",
+      "translations": { "bicolano": "Mayong Problema", "cebuano": "Walay problema", "hiligaynon": "La Palaktakon",
+                        "ilocano": "Awan problema", "kapampangan": "Alang problema", "waray": "Waray problema" }
+    }
+  ],
+  "Pronouns": [
+    {
+      "english": "me", "filipino": "ako",
+      "asl_gif": "/static/ASL_GIFS/pronouns/me.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/ako.gif",
+      "translations": { "bicolano": "ako", "cebuano": "ako", "hiligaynon": "ako",
+                        "ilocano": "siyak", "kapampangan": "yaku", "waray": "ako" }
+    },
+    {
+      "english": "my", "filipino": "akin",
+      "asl_gif": "/static/ASL_GIFS/pronouns/my.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/akin.gif",
+      "translations": { "bicolano": "kanako", "cebuano": "ako-a", "hiligaynon": "akon",
+                        "ilocano": "bagik", "kapampangan": "kaku", "waray": "akon" }
+    },
+    {
+      "english": "you", "filipino": "ikaw",
+      "asl_gif": "/static/ASL_GIFS/pronouns/you.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/ikaw.gif",
+      "translations": { "bicolano": "ika", "cebuano": "ikaw", "hiligaynon": "ikaw",
+                        "ilocano": "sika", "kapampangan": "ika", "waray": "ikaw" }
+    },
+    {
+      "english": "your", "filipino": "iyo",
+      "asl_gif": "/static/ASL_GIFS/pronouns/your.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/iyo.gif",
+      "translations": { "bicolano": "kanimo", "cebuano": "imoha", "hiligaynon": "imo",
+                        "ilocano": "kenyam", "kapampangan": "keka", "waray": "iyo" }
+    },
+    {
+      "english": "we", "filipino": "tayo",
+      "asl_gif": "/static/ASL_GIFS/pronouns/we.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/tayo.gif",
+      "translations": { "bicolano": "kanamo", "cebuano": "amoa", "hiligaynon": "amon",
+                        "ilocano": "mi", "kapampangan": "kekami", "waray": "amon" }
+    },
+    {
+      "english": "our", "filipino": "amin",
+      "asl_gif": "/static/ASL_GIFS/pronouns/our.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/amin.gif",
+      "translations": { "bicolano": "kita", "cebuano": "kita", "hiligaynon": "kita",
+                        "ilocano": "datayo", "kapampangan": "ikatamu/itamu", "waray": "kita" }
+    },
+    {
+      "english": "they", "filipino": "sila",
+      "asl_gif": "/static/ASL_GIFS/pronouns/they.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/sila.gif",
+      "translations": { "bicolano": "sira", "cebuano": "sila", "hiligaynon": "sila",
+                        "ilocano": "isuda", "kapampangan": "ila", "waray": "hira" }
+    },
+    {
+      "english": "their", "filipino": "kanila",
+      "asl_gif": "/static/ASL_GIFS/pronouns/their.gif", "fsl_gif": "/static/FSL_GIFS/pronouns/kanila.gif",
+      "translations": { "bicolano": "kanira", "cebuano": "ilaha", "hiligaynon": "dioto",
+                        "ilocano": "kenyada", "kapampangan": "karela", "waray": "ira" }
+    }
+  ],
+  "Family and People": [
+    {
+      "english": "Family", "filipino": "Pamilya",
+      "asl_gif": "/static/ASL_GIFS/family and people/family.gif", "fsl_gif": "/static/FSL_GIFS/family and people/pamilya.gif",
+      "translations": { "bicolano": "Pamilya", "cebuano": "Pamilya", "hiligaynon": "Pamilya",
+                        "ilocano": "Pamilya", "kapampangan": "Pamilya", "waray": "Pamilya" }
+    },
+    {
+      "english": "Parents", "filipino": "Magulang",
+      "asl_gif": "/static/ASL_GIFS/family and people/parents.gif", "fsl_gif": "/static/FSL_GIFS/family and people/magulang.gif",
+      "translations": { "bicolano": "Magurang", "cebuano": "Ginikanan", "hiligaynon": "Ginikanan",
+                        "ilocano": "Nagannak", "kapampangan": "Pengari", "waray": "Kag-Anák" }
+    },
+    {
+      "english": "Mother", "filipino": "Nanay",
+      "asl_gif": "/static/ASL_GIFS/family and people/mother.gif", "fsl_gif": "/static/FSL_GIFS/family and people/nanay.gif",
+      "translations": { "bicolano": "Inay", "cebuano": "Inahan", "hiligaynon": "Nanay",
+                        "ilocano": "Nanang", "kapampangan": "Ima", "waray": "Iróy" }
+    },
+    {
+      "english": "Father", "filipino": "Tatay",
+      "asl_gif": "/static/ASL_GIFS/family and people/father.gif", "fsl_gif": "/static/FSL_GIFS/family and people/tatay.gif",
+      "translations": { "bicolano": "Itay", "cebuano": "Amahan", "hiligaynon": "Tatay",
+                        "ilocano": "Tatang", "kapampangan": "Tatang", "waray": "Amáy" }
+    },
+    {
+      "english": "Sister", "filipino": "Ate",
+      "asl_gif": "/static/ASL_GIFS/family and people/sister.gif", "fsl_gif": "/static/FSL_GIFS/family and people/ate.gif",
+      "translations": { "bicolano": "Ate", "cebuano": "Manan", "hiligaynon": "Manang",
+                        "ilocano": "Manang", "kapampangan": "Atsi", "waray": "Bugtó Nga Babaye" }
+    },
+    {
+      "english": "Brother", "filipino": "Kuya",
+      "asl_gif": "/static/ASL_GIFS/family and people/brother.gif", "fsl_gif": "/static/FSL_GIFS/family and people/kuya.gif",
+      "translations": { "bicolano": "Kuya", "cebuano": "Manoy", "hiligaynon": "Manong",
+                        "ilocano": "Manong", "kapampangan": "Koya", "waray": "Bugtó Nga Lalake" }
+    },
+    {
+      "english": "Grandmother", "filipino": "Lola",
+      "asl_gif": "/static/ASL_GIFS/family and people/grandmother.gif", "fsl_gif": "/static/FSL_GIFS/family and people/lola.gif",
+      "translations": { "bicolano": "Inay Gurang", "cebuano": "Lola", "hiligaynon": "Lola",
+                        "ilocano": "Lola", "kapampangan": "Impo", "waray": "Apóy Nga Babaye" }
+    },
+    {
+      "english": "Grandfather", "filipino": "Lolo",
+      "asl_gif": "/static/ASL_GIFS/family and people/grandfather.gif", "fsl_gif": "/static/FSL_GIFS/family and people/lolo.gif",
+      "translations": { "bicolano": "Itay Gurang", "cebuano": "Lolo", "hiligaynon": "Lolo",
+                        "ilocano": "Lolo", "kapampangan": "Ingkung", "waray": "Apóy Nga Lalake" }
+    },
+    {
+      "english": "Wife", "filipino": "Asawang Babae",
+      "asl_gif": "/static/ASL_GIFS/family and people/wife.gif", "fsl_gif": "/static/FSL_GIFS/family and people/asawang_babae.gif",
+      "translations": { "bicolano": "Agom Na Babayi", "cebuano": "Asawa", "hiligaynon": "Asawa",
+                        "ilocano": "Asawa nga babai", "kapampangan": "Asawang Babai", "waray": "Asawa Nga Babaye" }
+    },
+    {
+      "english": "Husband", "filipino": "Asawang Lalaki",
+      "asl_gif": "/static/ASL_GIFS/family and people/husband.gif", "fsl_gif": "/static/FSL_GIFS/family and people/asawang_lalaki.gif",
+      "translations": { "bicolano": "Agom Na Lalaki", "cebuano": "Bana", "hiligaynon": "Bana",
+                        "ilocano": "Asawa nga lalaki", "kapampangan": "Asawang Lalaki", "waray": "Asawa Nga Lalake" }
+    },
+    {
+      "english": "Daughter", "filipino": "Anak Na Babae",
+      "asl_gif": "/static/ASL_GIFS/family and people/daughter.gif", "fsl_gif": "/static/FSL_GIFS/family and people/anak_na_babae.gif",
+      "translations": { "bicolano": "Igin Na Babayi", "cebuano": "Anak Nga Babaye", "hiligaynon": "Bata Nga Lalaki",
+                        "ilocano": "Anak Na Babae", "kapampangan": "Anak A Babai", "waray": "Anák Nga Babaye" }
+    },
+    {
+      "english": "Son", "filipino": "Anak Na Lalaki",
+      "asl_gif": "/static/ASL_GIFS/family and people/son.gif", "fsl_gif": "/static/FSL_GIFS/family and people/anak_na_lalaki.gif",
+      "translations": { "bicolano": "Igin Na Lalaki", "cebuano": "Anak Nga Lalaki", "hiligaynon": "Bata Nga Babaye",
+                        "ilocano": "Anak Na Lalaki", "kapampangan": "Anak A Lalaki", "waray": "Anák Nga Lalake" }
+    },
+    {
+      "english": "Aunt", "filipino": "Tita",
+      "asl_gif": "/static/ASL_GIFS/family and people/aunt.gif", "fsl_gif": "/static/FSL_GIFS/family and people/tita.gif",
+      "translations": { "bicolano": "Auntie", "cebuano": "Tiya", "hiligaynon": "Tiya",
+                        "ilocano": "Dara", "kapampangan": "Dara", "waray": "Dadâ" }
+    },
+    {
+      "english": "Uncle", "filipino": "Tito",
+      "asl_gif": "/static/ASL_GIFS/family and people/uncle.gif", "fsl_gif": "/static/FSL_GIFS/family and people/tito.gif",
+      "translations": { "bicolano": "Uncle", "cebuano": "Tiyo", "hiligaynon": "Tiyo",
+                        "ilocano": "Bapa", "kapampangan": "Bapa", "waray": "Batâ" }
+    },
+    {
+      "english": "Niece", "filipino": "Pamangkin Na Babae",
+      "asl_gif": "/static/ASL_GIFS/family and people/niece.gif", "fsl_gif": "/static/FSL_GIFS/family and people/pamangkin_na_babae.gif",
+      "translations": { "bicolano": "Pamangkin Na Babayi", "cebuano": "Pag-Umangkon Nga Babaye", "hiligaynon": "Hinaglos Nga Babaye",
+                        "ilocano": "Kaanakan", "kapampangan": "Pangunakan A Babai", "waray": "Umangkón Nga Babaye" }
+    },
+    {
+      "english": "Nephew", "filipino": "Pamangkin Na Lalaki",
+      "asl_gif": "/static/ASL_GIFS/family and people/nephew.gif", "fsl_gif": "/static/FSL_GIFS/family and people/pamangkin_na_lalaki.gif",
+      "translations": { "bicolano": "Pamangkin Na Lalaki", "cebuano": "Pag-Umangkon Nga Lalaki", "hiligaynon": "Hinablos Nga Lalaki",
+                        "ilocano": "Kaanakan", "kapampangan": "Pangunakan A Lalaki", "waray": "Umangkón Nga Lalake" }
+    },
+    {
+      "english": "Cousin", "filipino": "Pinsan",
+      "asl_gif": "/static/ASL_GIFS/family and people/cousin.gif", "fsl_gif": "/static/FSL_GIFS/family and people/pinsan.gif",
+      "translations": { "bicolano": "Pinsan", "cebuano": "Ig’Agaw", "hiligaynon": "Pakaisa",
+                        "ilocano": "Insan", "kapampangan": "Pisan", "waray": "Patód" }
+    },
+    {
+      "english": "Grandchild", "filipino": "Apo",
+      "asl_gif": "/static/ASL_GIFS/family and people/grandchild.gif", "fsl_gif": "/static/FSL_GIFS/family and people/apo.gif",
+      "translations": { "bicolano": "Apo", "cebuano": "Apo", "hiligaynon": "Apo",
+                        "ilocano": "Apu", "kapampangan": "Apu", "waray": "Apó" }
+    },
+    {
+      "english": "Child", "filipino": "Bata",
+      "asl_gif": "/static/ASL_GIFS/family and people/child.gif", "fsl_gif": "/static/FSL_GIFS/family and people/bata.gif",
+      "translations": { "bicolano": "Igin", "cebuano": "Bata", "hiligaynon": "Bata",
+                        "ilocano": "Anak", "kapampangan": "Anak", "waray": "Batá" }
+    },
+    {
+      "english": "Children", "filipino": "Mga Bata",
+      "asl_gif": "/static/ASL_GIFS/family and people/children.gif", "fsl_gif": "/static/FSL_GIFS/family and people/mga_bata.gif",
+      "translations": { "bicolano": "Mga Igin", "cebuano": "Mga Bata", "hiligaynon": "Kabataan",
+                        "ilocano": "Aannak", "kapampangan": "Deng Anak", "waray": "Mga Batá" }
+    },
+    {
+      "english": "Baby", "filipino": "Sanggol",
+      "asl_gif": "/static/ASL_GIFS/family and people/baby.gif", "fsl_gif": "/static/FSL_GIFS/family and people/sanggol.gif",
+      "translations": { "bicolano": "Igin", "cebuano": "Bata", "hiligaynon": "Lapsag",
+                        "ilocano": "Maladaga", "kapampangan": "Bingut", "waray": "Minasus-Án" }
+    },
+    {
+      "english": "Teenager", "filipino": "Tinedyer",
+      "asl_gif": "/static/ASL_GIFS/family and people/teenager.gif", "fsl_gif": "/static/FSL_GIFS/family and people/tinedyer.gif",
+      "translations": { "bicolano": "Tinedyer", "cebuano": "Tinedyer", "hiligaynon": "Pamatan-On",
+                        "ilocano": "Kaynakan", "kapampangan": "Kaynakan", "waray": "Ulitawohay" }
+    },
+    {
+      "english": "Girl", "filipino": "Babae",
+      "asl_gif": "/static/ASL_GIFS/family and people/girl.gif", "fsl_gif": "/static/FSL_GIFS/family and people/babae.gif",
+      "translations": { "bicolano": "Babayi", "cebuano": "Babaye", "hiligaynon": "Babaye",
+                        "ilocano": "Babayi", "kapampangan": "Babai", "waray": "Babaye" }
+    },
+    {
+      "english": "Boy", "filipino": "Lalaki",
+      "asl_gif": "/static/ASL_GIFS/family and people/boy.gif", "fsl_gif": "/static/FSL_GIFS/family and people/lalaki.gif",
+      "translations": { "bicolano": "Lalaki", "cebuano": "Lalaki", "hiligaynon": "Lalaki",
+                        "ilocano": "Lalaki", "kapampangan": "Lalaki", "waray": "Lalake" }
+    }
+  ],
+  "Emotions": [
+    {
+      "english": "shy", "filipino": "hiya",
+      "asl_gif": "/static/ASL_GIFS/emotions/shy.gif", "fsl_gif": "/static/FSL_GIFS/emotions/hiya.gif",
+      "translations": { "bicolano": "supog", "cebuano": "ulaw", "hiligaynon": "huya",
+                        "ilocano": "managbabain", "kapampangan": "miskaming", "waray": "alo" }
+    },
+    {
+      "english": "tired", "filipino": "pagod",
+      "asl_gif": "/static/ASL_GIFS/emotions/tired.gif", "fsl_gif": "/static/FSL_GIFS/emotions/pagod.gif",
+      "translations": { "bicolano": "pagal", "cebuano": "kapoy", "hiligaynon": "kapoy",
+                        "ilocano": "bannog", "kapampangan": "pagal", "waray": "pagal" }
+    },
+    {
+      "english": "sleepy", "filipino": "antok",
+      "asl_gif": "/static/ASL_GIFS/emotions/sleepy.gif", "fsl_gif": "/static/FSL_GIFS/emotions/antok.gif",
+      "translations": { "bicolano": "tungka", "cebuano": "katugon", "hiligaynon": "toyo",
+                        "ilocano": "makaturturog", "kapampangan": "mitutundu", "waray": "nangaturog" }
+    },
+    {
+      "english": "hungry", "filipino": "gutom",
+      "asl_gif": "/static/ASL_GIFS/emotions/hungry.gif", "fsl_gif": "/static/FSL_GIFS/emotions/gutom.gif",
+      "translations": { "bicolano": "alop", "cebuano": "gi-gutom", "hiligaynon": "gutom",
+                        "ilocano": "mabisin", "kapampangan": "maranup", "waray": "gutom" }
+    },
+    {
+      "english": "thirsty", "filipino": "uhaw",
+      "asl_gif": "/static/ASL_GIFS/emotions/thirsty.gif", "fsl_gif": "/static/FSL_GIFS/emotions/uhaw.gif",
+      "translations": { "bicolano": "paha", "cebuano": "uhaw", "hiligaynon": "uhaw",
+                        "ilocano": "makain-inom", "kapampangan": "kawa", "waray": "uhaw" }
+    }
+  ],
+  "Adjectives": [
+    {
+      "english": "big", "filipino": "malaki",
+      "asl_gif": "/static/ASL_GIFS/adjectives/big.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malaki.gif",
+      "translations": { "bicolano": "dakula", "cebuano": "dako", "hiligaynon": "dako",
+                        "ilocano": "dakkel", "kapampangan": "maragul", "waray": "dako" }
+    },
+    {
+      "english": "small", "filipino": "maliit",
+      "asl_gif": "/static/ASL_GIFS/adjectives/small.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maliit.gif",
+      "translations": { "bicolano": "sadit", "cebuano": "gamay", "hiligaynon": "gamay",
+                        "ilocano": "bassit", "kapampangan": "malati", "waray": "gutiay" }
+    },
+    {
+      "english": "clean", "filipino": "malinis",
+      "asl_gif": "/static/ASL_GIFS/adjectives/clean.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malinis.gif",
+      "translations": { "bicolano": "malinig", "cebuano": "limpyo", "hiligaynon": "limpyo",
+                        "ilocano": "nalinis", "kapampangan": "malinis", "waray": "mahamis" }
+    },
+    {
+      "english": "dirty", "filipino": "marumi",
+      "asl_gif": "/static/ASL_GIFS/adjectives/dirty.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/marumi.gif",
+      "translations": { "bicolano": "maati", "cebuano": "hugaw", "hiligaynon": "higko",
+                        "ilocano": "narugit", "kapampangan": "marinat", "waray": "mahugaw" }
+    },
+    {
+      "english": "difficult", "filipino": "mahirap",
+      "asl_gif": "/static/ASL_GIFS/adjectives/difficult.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mahirap.gif",
+      "translations": { "bicolano": "masakit", "cebuano": "lisod", "hiligaynon": "mabudlay",
+                        "ilocano": "narigat", "kapampangan": "masakit", "waray": "makuri" }
+    },
+    {
+      "english": "easy", "filipino": "madali",
+      "asl_gif": "/static/ASL_GIFS/adjectives/easy.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/madali.gif",
+      "translations": { "bicolano": "madali", "cebuano": "dali", "hiligaynon": "mahapos",
+                        "ilocano": "nalaka", "kapampangan": "masagli", "waray": "masayon" }
+    },
+    {
+      "english": "fast", "filipino": "mabilis",
+      "asl_gif": "/static/ASL_GIFS/adjectives/fast.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mabilis.gif",
+      "translations": { "bicolano": "maispidon", "cebuano": "paspas", "hiligaynon": "dasig",
+                        "ilocano": "napartak", "kapampangan": "mabilis", "waray": "madagmit" }
+    },
+    {
+      "english": "slow", "filipino": "mabagal",
+      "asl_gif": "/static/ASL_GIFS/adjectives/slow.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mabagal.gif",
+      "translations": { "bicolano": "haloyon", "cebuano": "hinay", "hiligaynon": "hinay",
+                        "ilocano": "nabuntog", "kapampangan": "mabagal", "waray": "mahinay" }
+    },
+    {
+      "english": "heavy", "filipino": "mabigat",
+      "asl_gif": "/static/ASL_GIFS/adjectives/heavy.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mabigat.gif",
+      "translations": { "bicolano": "magubat", "cebuano": "bug-at", "hiligaynon": "mabug-at",
+                        "ilocano": "nadagsen", "kapampangan": "mabayat", "waray": "mabug-at" }
+    },
+    {
+      "english": "light", "filipino": "magaan",
+      "asl_gif": "/static/ASL_GIFS/adjectives/light.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/magaan.gif",
+      "translations": { "bicolano": "magaan", "cebuano": "gaan", "hiligaynon": "kasanag",
+                        "ilocano": "nalag-an", "kapampangan": "mayan", "waray": "magaan" }
+    },
+    {
+      "english": "cold", "filipino": "malamig",
+      "asl_gif": "/static/ASL_GIFS/adjectives/cold.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malamig.gif",
+      "translations": { "bicolano": "malipot", "cebuano": "bugnaw", "hiligaynon": "tugnaw",
+                        "ilocano": "nalammin", "kapampangan": "marimla", "waray": "mataghom" }
+    },
+    {
+      "english": "hot", "filipino": "mainit",
+      "asl_gif": "/static/ASL_GIFS/adjectives/hot.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mainit.gif",
+      "translations": { "bicolano": "mainit", "cebuano": "igang", "hiligaynon": "mainit",
+                        "ilocano": "napudot", "kapampangan": "mapali", "waray": "mapaso" }
+    },
+    {
+      "english": "far", "filipino": "malayo",
+      "asl_gif": "/static/ASL_GIFS/adjectives/far.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malayo.gif",
+      "translations": { "bicolano": "harayo", "cebuano": "layo", "hiligaynon": "layo",
+                        "ilocano": "addayu", "kapampangan": "malawut", "waray": "hirayo" }
+    },
+    {
+      "english": "near", "filipino": "malapit",
+      "asl_gif": "/static/ASL_GIFS/adjectives/near.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malapit.gif",
+      "translations": { "bicolano": "harani", "cebuano": "duol", "hiligaynon": "lapit",
+                        "ilocano": "asideg", "kapampangan": "malapit", "waray": "hirani" }
+    },
+    {
+      "english": "new", "filipino": "bago",
+      "asl_gif": "/static/ASL_GIFS/adjectives/new.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/bago.gif",
+      "translations": { "bicolano": "bago", "cebuano": "bag-o", "hiligaynon": "bag-o",
+                        "ilocano": "barbaro", "kapampangan": "bayu", "waray": "bag-o" }
+    },
+    {
+      "english": "old", "filipino": "luma",
+      "asl_gif": "/static/ASL_GIFS/adjectives/old.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/luma.gif",
+      "translations": { "bicolano": "luma", "cebuano": "daan", "hiligaynon": "da-an",
+                        "ilocano": "nadaan", "kapampangan": "luma", "waray": "daan" }
+    },
+    {
+      "english": "many", "filipino": "marami",
+      "asl_gif": "/static/ASL_GIFS/adjectives/many.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/marami.gif",
+      "translations": { "bicolano": "dakulon", "cebuano": "daghan", "hiligaynon": "madamo",
+                        "ilocano": "adu", "kapampangan": "marakal", "waray": "damo" }
+    },
+    {
+      "english": "few", "filipino": "kakaunti",
+      "asl_gif": "/static/ASL_GIFS/adjectives/few.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/kakaunti.gif",
+      "translations": { "bicolano": "gagatikot", "cebuano": "gamay", "hiligaynon": "dyutay",
+                        "ilocano": "bassi-bassit", "kapampangan": "maritak", "waray": "gutiay" }
+    },
+    {
+      "english": "up", "filipino": "taas",
+      "asl_gif": "/static/ASL_GIFS/adjectives/up.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/taas.gif",
+      "translations": { "bicolano": "taas", "cebuano": "taas", "hiligaynon": "taas",
+                        "ilocano": "ngatu", "kapampangan": "babo", "waray": "igbaw" }
+    },
+    {
+      "english": "down", "filipino": "baba",
+      "asl_gif": "/static/ASL_GIFS/adjectives/down.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/baba.gif",
+      "translations": { "bicolano": "baba", "cebuano": "ubos", "hiligaynon": "idalom",
+                        "ilocano": "baba", "kapampangan": "lalam", "waray": "ubos" }
+    },
+    {
+      "english": "right", "filipino": "kanan",
+      "asl_gif": "/static/ASL_GIFS/adjectives/right.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/kanan.gif",
+      "translations": { "bicolano": "kanan", "cebuano": "tuo", "hiligaynon": "tu-o",
+                        "ilocano": "kannawan", "kapampangan": "wanan", "waray": "tuo" }
+    },
+    {
+      "english": "left", "filipino": "kaliwa",
+      "asl_gif": "/static/ASL_GIFS/adjectives/left.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/kaliwa.gif",
+      "translations": { "bicolano": "kaliwa", "cebuano": "wala", "hiligaynon": "wala",
+                        "ilocano": "kannigid", "kapampangan": "kayli", "waray": "wala" }
+    },
+    {
+      "english": "tall", "filipino": "matangkad",
+      "asl_gif": "/static/ASL_GIFS/adjectives/tall.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/matangkad.gif",
+      "translations": { "bicolano": "halangkaw", "cebuano": "taason", "hiligaynon": "ta-as",
+                        "ilocano": "natayag", "kapampangan": "matas", "waray": "hitaas" }
+    },
+    {
+      "english": "short", "filipino": "maigsi",
+      "asl_gif": "/static/ASL_GIFS/adjectives/short_in_height.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maigsi.gif",
+      "translations": { "bicolano": "sadit", "cebuano": "gamay", "hiligaynon": "nubo",
+                        "ilocano": "bassit", "kapampangan": "malati", "waray": "hibubo" }
+    },
+    {
+      "english": "good", "filipino": "mabuti",
+      "asl_gif": "/static/ASL_GIFS/adjectives/good.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mabuti.gif",
+      "translations": { "bicolano": "marahay", "cebuano": "buotan", "hiligaynon": "mayo",
+                        "ilocano": "nasimpet", "kapampangan": "mayap", "waray": "buotan" }
+    },
+    {
+      "english": "bad", "filipino": "masama",
+      "asl_gif": "/static/ASL_GIFS/adjectives/bad.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/masama.gif",
+      "translations": { "bicolano": "maraot", "cebuano": "daotan", "hiligaynon": "malain",
+                        "ilocano": "dakes", "kapampangan": "marok", "waray": "malain" }
+    },
+    {
+      "english": "early", "filipino": "maaga",
+      "asl_gif": "/static/ASL_GIFS/adjectives/early.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maaga.gif",
+      "translations": { "bicolano": "amay", "cebuano": "sayo", "hiligaynon": "aga pa",
+                        "ilocano": "nasapa", "kapampangan": "maranun", "waray": "agap" }
+    },
+    {
+      "english": "late", "filipino": "huli",
+      "asl_gif": "/static/ASL_GIFS/adjectives/late.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/huli.gif",
+      "translations": { "bicolano": "uri", "cebuano": "ulahi", "hiligaynon": "ulihi",
+                        "ilocano": "naladaw", "kapampangan": "talwi", "waray": "urhi" }
+    },
+    {
+      "english": "quiet", "filipino": "tahimik",
+      "asl_gif": "/static/ASL_GIFS/adjectives/quiet.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/tahimik.gif",
+      "translations": { "bicolano": "uda ribok", "cebuano": "hilom", "hiligaynon": "hipos",
+                        "ilocano": "natalna", "kapampangan": "tahimik", "waray": "mamingaw" }
+    },
+    {
+      "english": "noisy", "filipino": "maingay",
+      "asl_gif": "/static/ASL_GIFS/adjectives/noisy.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maingay.gif",
+      "translations": { "bicolano": "maribok", "cebuano": "saba", "hiligaynon": "gahod",
+                        "ilocano": "nangalawngaw", "kapampangan": "mangye", "waray": "maaringasa" }
+    },
+    {
+      "english": "long", "filipino": "mahaba",
+      "asl_gif": "/static/ASL_GIFS/adjectives/long.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mahaba.gif",
+      "translations": { "bicolano": "maaba", "cebuano": "taas", "hiligaynon": "laba",
+                        "ilocano": "attidug", "kapampangan": "makaba", "waray": "hilaba" }
+    },
+    {
+      "english": "short", "filipino": "maigsi",
+      "asl_gif": "/static/ASL_GIFS/adjectives/short.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maigsi.gif",
+      "translations": { "bicolano": "atlukot", "cebuano": "mubo", "hiligaynon": "lip-ot",
+                        "ilocano": "bassit", "kapampangan": "makuyad", "waray": "halipot" }
+    },
+    {
+      "english": "correct", "filipino": "tama",
+      "asl_gif": "/static/ASL_GIFS/adjectives/correct.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/tama.gif",
+      "translations": { "bicolano": "tama", "cebuano": "tama", "hiligaynon": "sakto",
+                        "ilocano": "usto", "kapampangan": "istu", "waray": "asya" }
+    },
+    {
+      "english": "wrong", "filipino": "mali",
+      "asl_gif": "/static/ASL_GIFS/adjectives/wrong.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mali.gif",
+      "translations": { "bicolano": "sala", "cebuano": "sayop", "hiligaynon": "sala",
+                        "ilocano": "mali", "kapampangan": "ali istu", "waray": "diri asya" }
+    },
+    {
+      "english": "beautiful", "filipino": "maganda",
+      "asl_gif": "/static/ASL_GIFS/adjectives/beautiful.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/maganda.gif",
+      "translations": { "bicolano": "magayon", "cebuano": "gwapa", "hiligaynon": "gwapa",
+                        "ilocano": "napintas", "kapampangan": "malagu", "waray": "mahusay" }
+    },
+    {
+      "english": "brave", "filipino": "matapang",
+      "asl_gif": "/static/ASL_GIFS/adjectives/brave.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/matapang.gif",
+      "translations": { "bicolano": "oragon", "cebuano": "isog", "hiligaynon": "maisug",
+                        "ilocano": "natured", "kapampangan": "matapang", "waray": "maisog" }
+    },
+    {
+      "english": "coward", "filipino": "duwag",
+      "asl_gif": "/static/ASL_GIFS/adjectives/coward.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/duwag.gif",
+      "translations": { "bicolano": "duwag", "cebuano": "talawan", "hiligaynon": "talawan",
+                        "ilocano": "takrot", "kapampangan": "duwag", "waray": "hadlukon" }
+    },
+    {
+      "english": "delicious", "filipino": "masarap",
+      "asl_gif": "/static/ASL_GIFS/adjectives/delicious.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/masarap.gif",
+      "translations": { "bicolano": "masiram", "cebuano": "lami", "hiligaynon": "namit",
+                        "ilocano": "naimas", "kapampangan": "manyaman", "waray": "marasa" }
+    },
+    {
+      "english": "bland", "filipino": "walang lasa",
+      "asl_gif": "/static/ASL_GIFS/adjectives/bland.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/walang_lasa.gif",
+      "translations": { "bicolano": "mayong na", "cebuano": "walay lami", "hiligaynon": "malas-ay",
+                        "ilocano": "natamnay", "kapampangan": "alang lasa", "waray": "waray rasa" }
+    },
+    {
+      "english": "thick", "filipino": "makapal",
+      "asl_gif": "/static/ASL_GIFS/adjectives/thick.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/makapal.gif",
+      "translations": { "bicolano": "maib'ug", "cebuano": "baga", "hiligaynon": "damol",
+                        "ilocano": "napuskol", "kapampangan": "makapal", "waray": "madakmol" }
+    },
+    {
+      "english": "thin", "filipino": "manipis",
+      "asl_gif": "/static/ASL_GIFS/adjectives/thin.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/manipis.gif",
+      "translations": { "bicolano": "manipis", "cebuano": "nipis", "hiligaynon": "manipis",
+                        "ilocano": "naimpis", "kapampangan": "manipis", "waray": "manipis" }
+    },
+    {
+      "english": "strong", "filipino": "malakas",
+      "asl_gif": "/static/ASL_GIFS/adjectives/strong.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malakas.gif",
+      "translations": { "bicolano": "makusog", "cebuano": "kusog", "hiligaynon": "baskog",
+                        "ilocano": "napigsa", "kapampangan": "masikan", "waray": "makusog" }
+    },
+    {
+      "english": "weak", "filipino": "mahina",
+      "asl_gif": "/static/ASL_GIFS/adjectives/weak.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mahina.gif",
+      "translations": { "bicolano": "maluya", "cebuano": "luya", "hiligaynon": "huyang",
+                        "ilocano": "nakapsut", "kapampangan": "mayna", "waray": "mahinay" }
+    },
+    {
+      "english": "healthy", "filipino": "malusog",
+      "asl_gif": "/static/ASL_GIFS/adjectives/healthy.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/malusog.gif",
+      "translations": { "bicolano": "makusog", "cebuano": "himsog", "hiligaynon": "maayong lawas",
+                        "ilocano": "nasalun-at", "kapampangan": "malusug", "waray": "maupay it kalawas" }
+    },
+    {
+      "english": "sick", "filipino": "may sakit",
+      "asl_gif": "/static/ASL_GIFS/adjectives/sick.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/may_sakit.gif",
+      "translations": { "bicolano": "maluya", "cebuano": "masakiton", "hiligaynon": "masakitan",
+                        "ilocano": "agsakit", "kapampangan": "masakit", "waray": "may sakit" }
+    },
+    {
+      "english": "sweet", "filipino": "matamis",
+      "asl_gif": "/static/ASL_GIFS/adjectives/sweet.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/matamis.gif",
+      "translations": { "bicolano": "mahamis", "cebuano": "tam- is", "hiligaynon": "tam-is",
+                        "ilocano": "nasam-it", "kapampangan": "mayumu", "waray": "matam-is" }
+    },
+    {
+      "english": "bitter", "filipino": "mapait",
+      "asl_gif": "/static/ASL_GIFS/adjectives/bitter.gif", "fsl_gif": "/static/FSL_GIFS/adjectives/mapait.gif",
+      "translations": { "bicolano": "mapait", "cebuano": "pait", "hiligaynon": "pait",
+                        "ilocano": "napa-it", "kapampangan": "mapait", "waray": "mapait" }
+    }
+  ],
+  "Verbs": [
+    {
+      "english": "eat", "filipino": "kain",
+      "asl_gif": "/static/ASL_GIFS/verbs/eat.gif", "fsl_gif": "/static/FSL_GIFS/verbs/kain.gif",
+      "translations": { "bicolano": "kaon", "cebuano": "kaon", "hiligaynon": "ka-on",
+                        "ilocano": "mangan", "kapampangan": "mangan", "waray": "pangaon" }
+    },
+    {
+      "english": "drink", "filipino": "inom",
+      "asl_gif": "/static/ASL_GIFS/verbs/drink.gif", "fsl_gif": "/static/FSL_GIFS/verbs/inom.gif",
+      "translations": { "bicolano": "inom", "cebuano": "inom", "hiligaynon": "inom",
+                        "ilocano": "inom", "kapampangan": "inum", "waray": "inom" }
+    },
+    {
+      "english": "walk", "filipino": "lakad",
+      "asl_gif": "/static/ASL_GIFS/verbs/walk.gif", "fsl_gif": "/static/FSL_GIFS/verbs/lakad.gif",
+      "translations": { "bicolano": "agi", "cebuano": "lakaw", "hiligaynon": "lakat",
+                        "ilocano": "magna", "kapampangan": "lakad", "waray": "lakat" }
+    },
+    {
+      "english": "run", "filipino": "takbo",
+      "asl_gif": "/static/ASL_GIFS/verbs/run.gif", "fsl_gif": "/static/FSL_GIFS/verbs/takbo.gif",
+      "translations": { "bicolano": "dalagan", "cebuano": "daghan", "hiligaynon": "dalagan",
+                        "ilocano": "taray", "kapampangan": "pulayi", "waray": "dalagan" }
+    },
+    {
+      "english": "dance", "filipino": "sayaw",
+      "asl_gif": "/static/ASL_GIFS/verbs/dance.gif", "fsl_gif": "/static/FSL_GIFS/verbs/sayaw.gif",
+      "translations": { "bicolano": "bayle", "cebuano": "sayaw", "hiligaynon": "sa-ot",
+                        "ilocano": "sala", "kapampangan": "terak", "waray": "sayaw" }
+    },
+    {
+      "english": "play", "filipino": "maglaro",
+      "asl_gif": "/static/ASL_GIFS/verbs/play.gif", "fsl_gif": "/static/FSL_GIFS/verbs/maglaro.gif",
+      "translations": { "bicolano": "kawat", "cebuano": "magdula", "hiligaynon": "hampang",
+                        "ilocano": "agay-ayam", "kapampangan": "mamyalung", "waray": "pag-uyas" }
+    },
+    {
+      "english": "stop", "filipino": "hinto",
+      "asl_gif": "/static/ASL_GIFS/verbs/stop.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hinto.gif",
+      "translations": { "bicolano": "pundo", "cebuano": "hunong", "hiligaynon": "para",
+                        "ilocano": "sardeng", "kapampangan": "tuknang", "waray": "udong" }
+    },
+    {
+      "english": "sleep", "filipino": "tulog",
+      "asl_gif": "/static/ASL_GIFS/verbs/sleep.gif", "fsl_gif": "/static/FSL_GIFS/verbs/tulog.gif",
+      "translations": { "bicolano": "turog", "cebuano": "tulog", "hiligaynon": "tulog",
+                        "ilocano": "turog", "kapampangan": "tudtud", "waray": "katurog" }
+    },
+    {
+      "english": "do", "filipino": "gawa",
+      "asl_gif": "/static/ASL_GIFS/verbs/do.gif", "fsl_gif": "/static/FSL_GIFS/verbs/gawa.gif",
+      "translations": { "bicolano": "gibuhon", "cebuano": "buhata", "hiligaynon": "himo-on",
+                        "ilocano": "aramiden", "kapampangan": "gawan", "waray": "buhata" }
+    },
+    {
+      "english": "do not", "filipino": "huwag",
+      "asl_gif": "/static/ASL_GIFS/verbs/do_not.gif", "fsl_gif": "/static/FSL_GIFS/verbs/huwag.gif",
+      "translations": { "bicolano": "diri gibuho", "cebuano": "ayaw", "hiligaynon": "indi",
+                        "ilocano": "haan", "kapampangan": "ali", "waray": "ayaw" }
+    },
+    {
+      "english": "study", "filipino": "aral",
+      "asl_gif": "/static/ASL_GIFS/verbs/study.gif", "fsl_gif": "/static/FSL_GIFS/verbs/aral.gif",
+      "translations": { "bicolano": "adal", "cebuano": "tuon", "hiligaynon": "tu-on",
+                        "ilocano": "basa", "kapampangan": "magaral", "waray": "pag-aram" }
+    },
+    {
+      "english": "read", "filipino": "magbasa",
+      "asl_gif": "/static/ASL_GIFS/verbs/read.gif", "fsl_gif": "/static/FSL_GIFS/verbs/magbasa.gif",
+      "translations": { "bicolano": "basa", "cebuano": "basa", "hiligaynon": "basa",
+                        "ilocano": "basa", "kapampangan": "basa", "waray": "basa" }
+    },
+    {
+      "english": "write", "filipino": "sulat",
+      "asl_gif": "/static/ASL_GIFS/verbs/write.gif", "fsl_gif": "/static/FSL_GIFS/verbs/sulat.gif",
+      "translations": { "bicolano": "surat", "cebuano": "sulat", "hiligaynon": "sulat",
+                        "ilocano": "surat", "kapampangan": "sulat", "waray": "pagsurat" }
+    },
+    {
+      "english": "think", "filipino": "isip",
+      "asl_gif": "/static/ASL_GIFS/verbs/think.gif", "fsl_gif": "/static/FSL_GIFS/verbs/isip.gif",
+      "translations": { "bicolano": "isip", "cebuano": "maghuna-huna", "hiligaynon": "huna-huna",
+                        "ilocano": "panunot", "kapampangan": "Isip", "waray": "paghuna-huna" }
+    },
+    {
+      "english": "know", "filipino": "alam",
+      "asl_gif": "/static/ASL_GIFS/verbs/know.gif", "fsl_gif": "/static/FSL_GIFS/verbs/alam.gif",
+      "translations": { "bicolano": "isi", "cebuano": "kabalo", "hiligaynon": "nabal-an",
+                        "ilocano": "ammo", "kapampangan": "balu", "waray": "aram" }
+    },
+    {
+      "english": "do not know", "filipino": "hindi alam",
+      "asl_gif": "/static/ASL_GIFS/verbs/do_not_know.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hindi_alam.gif",
+      "translations": { "bicolano": "diri isi", "cebuano": "di kabalo", "hiligaynon": "wala kabalo",
+                        "ilocano": "haan ammo", "kapampangan": "ali balu", "waray": "diko aram" }
+    },
+    {
+      "english": "understand", "filipino": "intindi",
+      "asl_gif": "/static/ASL_GIFS/verbs/understand.gif", "fsl_gif": "/static/FSL_GIFS/verbs/intindi.gif",
+      "translations": { "bicolano": "intindi", "cebuano": "sabo", "hiligaynon": "nakahibalo",
+                        "ilocano": "maawattan", "kapampangan": "intindi", "waray": "intindi" }
+    },
+    {
+      "english": "look", "filipino": "tignan",
+      "asl_gif": "/static/ASL_GIFS/verbs/look.gif", "fsl_gif": "/static/FSL_GIFS/verbs/tignan.gif",
+      "translations": { "bicolano": "hilingon", "cebuano": "tingnan", "hiligaynon": "gapangita",
+                        "ilocano": "kitaen", "kapampangan": "lawen", "waray": "kulawi" }
+    },
+    {
+      "english": "listen", "filipino": "makinig",
+      "asl_gif": "/static/ASL_GIFS/verbs/listen.gif", "fsl_gif": "/static/FSL_GIFS/verbs/makinig.gif",
+      "translations": { "bicolano": "dangugon", "cebuano": "pamimaw", "hiligaynon": "pamati",
+                        "ilocano": "agdengngeg", "kapampangan": "makiramdam", "waray": "panungog" }
+    },
+    {
+      "english": "talk", "filipino": "mag-usap",
+      "asl_gif": "/static/ASL_GIFS/verbs/talk.gif", "fsl_gif": "/static/FSL_GIFS/verbs/mag-usap.gif",
+      "translations": { "bicolano": "magtaram", "cebuano": "mag-istoya", "hiligaynon": "istoryahanay",
+                        "ilocano": "ag katungtung", "kapampangan": "misabi", "waray": "pagistroya" }
+    },
+    {
+      "english": "tell", "filipino": "sabihin",
+      "asl_gif": "/static/ASL_GIFS/verbs/tell.gif", "fsl_gif": "/static/FSL_GIFS/verbs/sabihin.gif",
+      "translations": { "bicolano": "magtaram", "cebuano": "istorya", "hiligaynon": "siling",
+                        "ilocano": "ibaga", "kapampangan": "sabyan", "waray": "sidnga" }
+    },
+    {
+      "english": "feel", "filipino": "pakiramdam",
+      "asl_gif": "/static/ASL_GIFS/verbs/feel.gif", "fsl_gif": "/static/FSL_GIFS/verbs/pakiramdam.gif",
+      "translations": { "bicolano": "mati", "cebuano": "gibati", "hiligaynon": "natabyagan",
+                        "ilocano": "rikna", "kapampangan": "pakiramdam", "waray": "pamati" }
+    },
+    {
+      "english": "smell", "filipino": "amoy",
+      "asl_gif": "/static/ASL_GIFS/verbs/smell.gif", "fsl_gif": "/static/FSL_GIFS/verbs/amoy.gif",
+      "translations": { "bicolano": "parong", "cebuano": "simhut", "hiligaynon": "sim-hot",
+                        "ilocano": "angot", "kapampangan": "bawu", "waray": "baho" }
+    },
+    {
+      "english": "hold", "filipino": "hawak",
+      "asl_gif": "/static/ASL_GIFS/verbs/hold.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hawak.gif",
+      "translations": { "bicolano": "kaputan", "cebuano": "kuptan", "hiligaynon": "uyatan",
+                        "ilocano": "iggeman", "kapampangan": "tatalan", "waray": "kapti" }
+    },
+    {
+      "english": "use", "filipino": "gamitin",
+      "asl_gif": "/static/ASL_GIFS/verbs/use.gif", "fsl_gif": "/static/FSL_GIFS/verbs/gamitin.gif",
+      "translations": { "bicolano": "gamit", "cebuano": "gamiton", "hiligaynon": "gamit",
+                        "ilocano": "usaren", "kapampangan": "gamitan", "waray": "gamiton" }
+    },
+    {
+      "english": "wash", "filipino": "hugas",
+      "asl_gif": "/static/ASL_GIFS/verbs/wash.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hugas.gif",
+      "translations": { "bicolano": "ugas", "cebuano": "hugas", "hiligaynon": "hugas",
+                        "ilocano": "bugwan", "kapampangan": "hugas", "waray": "hugas" }
+    },
+    {
+      "english": "help", "filipino": "tulong",
+      "asl_gif": "/static/ASL_GIFS/verbs/help.gif", "fsl_gif": "/static/FSL_GIFS/verbs/tulong.gif",
+      "translations": { "bicolano": "tabang", "cebuano": "tabang", "hiligaynon": "buligan",
+                        "ilocano": "tulong", "kapampangan": "sawup", "waray": "bulig" }
+    },
+    {
+      "english": "rest", "filipino": "pahinga",
+      "asl_gif": "/static/ASL_GIFS/verbs/rest.gif", "fsl_gif": "/static/FSL_GIFS/verbs/pahinga.gif",
+      "translations": { "bicolano": "pahingalo", "cebuano": "pahuway", "hiligaynon": "pahuway",
+                        "ilocano": "aginana", "kapampangan": "paynawa", "waray": "pahuway" }
+    },
+    {
+      "english": "do not like", "filipino": "hindi nais",
+      "asl_gif": "/static/ASL_GIFS/verbs/do_not_like.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hindi_nais.gif",
+      "translations": { "bicolano": "abo", "cebuano": "dili ganahan", "hiligaynon": "indi gusto",
+                        "ilocano": "haan nga kayat", "kapampangan": "ali buri", "waray": "diko karuyag" }
+    },
+    {
+      "english": "like", "filipino": "nais",
+      "asl_gif": "/static/ASL_GIFS/verbs/like.gif", "fsl_gif": "/static/FSL_GIFS/verbs/nais.gif",
+      "translations": { "bicolano": "gusto", "cebuano": "ganahan", "hiligaynon": "gusto",
+                        "ilocano": "kayat", "kapampangan": "buri", "waray": "karuyag ko" }
+    },
+    {
+      "english": "go", "filipino": "punta",
+      "asl_gif": "/static/ASL_GIFS/verbs/go.gif", "fsl_gif": "/static/FSL_GIFS/verbs/punta.gif",
+      "translations": { "bicolano": "iyan", "cebuano": "adto", "hiligaynon": "kadto",
+                        "ilocano": "apan", "kapampangan": "munta", "waray": "kadto" }
+    },
+    {
+      "english": "get", "filipino": "kuha",
+      "asl_gif": "/static/ASL_GIFS/verbs/get.gif", "fsl_gif": "/static/FSL_GIFS/verbs/kuha.gif",
+      "translations": { "bicolano": "kua", "cebuano": "kuwa-a", "hiligaynon": "kuha",
+                        "ilocano": "alaen", "kapampangan": "kwanan", "waray": "kuhaa" }
+    },
+    {
+      "english": "give", "filipino": "bigay",
+      "asl_gif": "/static/ASL_GIFS/verbs/give.gif", "fsl_gif": "/static/FSL_GIFS/verbs/bigay.gif",
+      "translations": { "bicolano": "tau", "cebuano": "hatag", "hiligaynon": "hatag",
+                        "ilocano": "igkan", "kapampangan": "biye", "waray": "ihatag" }
+    },
+    {
+      "english": "teach", "filipino": "turo",
+      "asl_gif": "/static/ASL_GIFS/verbs/teach.gif", "fsl_gif": "/static/FSL_GIFS/verbs/turo.gif",
+      "translations": { "bicolano": "tukdo", "cebuano": "tudlo", "hiligaynon": "tudloan",
+                        "ilocano": "turo", "kapampangan": "turu", "waray": "pagtutdo" }
+    },
+    {
+      "english": "learn", "filipino": "matuto",
+      "asl_gif": "/static/ASL_GIFS/verbs/learn.gif", "fsl_gif": "/static/FSL_GIFS/verbs/matuto.gif",
+      "translations": { "bicolano": "adal", "cebuano": "tuon", "hiligaynon": "nakabalo",
+                        "ilocano": "maadal", "kapampangan": "mabiyasa", "waray": "hibaro" }
+    },
+    {
+      "english": "cry", "filipino": "iyak",
+      "asl_gif": "/static/ASL_GIFS/verbs/cry.gif", "fsl_gif": "/static/FSL_GIFS/verbs/iyak.gif",
+      "translations": { "bicolano": "hibi", "cebuano": "hilak", "hiligaynon": "hibi",
+                        "ilocano": "sangit", "kapampangan": "gaga", "waray": "araba" }
+    },
+    {
+      "english": "wait", "filipino": "hintay",
+      "asl_gif": "/static/ASL_GIFS/verbs/wait.gif", "fsl_gif": "/static/FSL_GIFS/verbs/hintay.gif",
+      "translations": { "bicolano": "halat", "cebuano": "huram", "hiligaynon": "hulat",
+                        "ilocano": "urayen", "kapampangan": "manaya", "waray": "hulta" }
+    },
+    {
+      "english": "buy", "filipino": "bili",
+      "asl_gif": "/static/ASL_GIFS/verbs/buy.gif", "fsl_gif": "/static/FSL_GIFS/verbs/bili.gif",
+      "translations": { "bicolano": "bakal", "cebuano": "palit", "hiligaynon": "bakal",
+                        "ilocano": "gatang", "kapampangan": "sali", "waray": "palit" }
+    },
+    {
+      "english": "sing", "filipino": "kanta",
+      "asl_gif": "/static/ASL_GIFS/verbs/sing.gif", "fsl_gif": "/static/FSL_GIFS/verbs/kanta.gif",
+      "translations": { "bicolano": "kanta", "cebuano": "kanta", "hiligaynon": "sinyales",
+                        "ilocano": "kanta", "kapampangan": "kanta", "waray": "kanta" }
+    },
+    {
+      "english": "sign", "filipino": "senyas",
+      "asl_gif": "/static/ASL_GIFS/verbs/sign.gif", "fsl_gif": "/static/FSL_GIFS/verbs/senyas.gif",
+      "translations": { "bicolano": "senyas", "cebuano": "timan", "hiligaynon": "amba",
+                        "ilocano": "senyas", "kapampangan": "senyas", "waray": "senyas" }
+    },
+    {
+      "english": "bathe", "filipino": "ligo",
+      "asl_gif": "/static/ASL_GIFS/verbs/bathe.gif", "fsl_gif": "/static/FSL_GIFS/verbs/ligo.gif",
+      "translations": { "bicolano": "rigos", "cebuano": "ligo", "hiligaynon": "ligo",
+                        "ilocano": "digos", "kapampangan": "dilu", "waray": "parigo" }
+    },
+    {
+      "english": "cook", "filipino": "luto",
+      "asl_gif": "/static/ASL_GIFS/verbs/cook.gif", "fsl_gif": "/static/FSL_GIFS/verbs/luto.gif",
+      "translations": { "bicolano": "luto", "cebuano": "luto", "hiligaynon": "luto",
+                        "ilocano": "agluto", "kapampangan": "lutu", "waray": "luto" }
+    },
+    {
+      "english": "call", "filipino": "tawag",
+      "asl_gif": "/static/ASL_GIFS/verbs/call.gif", "fsl_gif": "/static/FSL_GIFS/verbs/tawag.gif",
+      "translations": { "bicolano": "apud", "cebuano": "tawag", "hiligaynon": "tawag",
+                        "ilocano": "awag", "kapampangan": "aus", "waray": "tawag" }
+    }
+  ],
+  "Places": [
+    {
+      "english": "house", "filipino": "bahay",
+      "asl_gif": "/static/ASL_GIFS/places/house.gif", "fsl_gif": "/static/FSL_GIFS/places/bahay.gif",
+      "translations": { "bicolano": "baloy", "cebuano": "balay", "hiligaynon": "balay",
+                        "ilocano": "balay", "kapampangan": "bale", "waray": "balay" }
+    },
+    {
+      "english": "school", "filipino": "paaralan",
+      "asl_gif": "/static/ASL_GIFS/places/school.gif", "fsl_gif": "/static/FSL_GIFS/places/paaralan.gif",
+      "translations": { "bicolano": "eskwelaha", "cebuano": "eskwelahan", "hiligaynon": "eskwelahan",
+                        "ilocano": "eskwelaan", "kapampangan": "eskuwela", "waray": "skwelahan" }
+    },
+    {
+      "english": "church", "filipino": "simbahan",
+      "asl_gif": "/static/ASL_GIFS/places/church.gif", "fsl_gif": "/static/FSL_GIFS/places/simbahan.gif",
+      "translations": { "bicolano": "simbahan", "cebuano": "simbahan", "hiligaynon": "simbahan",
+                        "ilocano": "simabahan", "kapampangan": "pisamban", "waray": "simbahan" }
+    },
+    {
+      "english": "hospital", "filipino": "ospital",
+      "asl_gif": "/static/ASL_GIFS/places/hospital.gif", "fsl_gif": "/static/FSL_GIFS/places/ospital.gif",
+      "translations": { "bicolano": "ospital", "cebuano": "balay tambalanan", "hiligaynon": "ospital",
+                        "ilocano": "ospital", "kapampangan": "ospital", "waray": "ospital" }
+    },
+    {
+      "english": "clinic", "filipino": "klinik",
+      "asl_gif": "/static/ASL_GIFS/places/clinic.gif", "fsl_gif": "/static/FSL_GIFS/places/klinik.gif",
+      "translations": { "bicolano": "klinik", "cebuano": "klinika", "hiligaynon": "klinika",
+                        "ilocano": "klinik", "kapampangan": "klinik", "waray": "klinik" }
+    },
+    {
+      "english": "market", "filipino": "tindahan",
+      "asl_gif": "/static/ASL_GIFS/places/market.gif", "fsl_gif": "/static/FSL_GIFS/places/tindahan.gif",
+      "translations": { "bicolano": "tindahan", "cebuano": "tindahan", "hiligaynon": "merkado",
+                        "ilocano": "tiendahan", "kapampangan": "tindahan", "waray": "tindahan" }
+    },
+    {
+      "english": "Philippines", "filipino": "Pilipinas",
+      "asl_gif": "/static/ASL_GIFS/places/philippines.gif", "fsl_gif": "/static/FSL_GIFS/places/pilipinas.gif",
+      "translations": { "bicolano": "pilipinas", "cebuano": "Pilipinas", "hiligaynon": "Pilipinas",
+                        "ilocano": "Pilipinas", "kapampangan": "Pilipinas", "waray": "Pilipinas" }
+    },
+    {
+      "english": "city", "filipino": "lungsod",
+      "asl_gif": "/static/ASL_GIFS/places/city.gif", "fsl_gif": "/static/FSL_GIFS/places/lungsod.gif",
+      "translations": { "bicolano": "lungsod", "cebuano": "siyudad", "hiligaynon": "syudad",
+                        "ilocano": "siudad", "kapampangan": "lungsud", "waray": "syudad" }
+    },
+    {
+      "english": "park", "filipino": "parke",
+      "asl_gif": "/static/ASL_GIFS/places/park.gif", "fsl_gif": "/static/FSL_GIFS/places/parke.gif",
+      "translations": { "bicolano": "park", "cebuano": "plaza", "hiligaynon": "parke",
+                        "ilocano": "parke", "kapampangan": "park", "waray": "urugyasan" }
+    },
+    {
+      "english": "pharmacy", "filipino": "botika",
+      "asl_gif": "/static/ASL_GIFS/places/pharmacy.gif", "fsl_gif": "/static/FSL_GIFS/places/botika.gif",
+      "translations": { "bicolano": "botika", "cebuano": "botika", "hiligaynon": "botika",
+                        "ilocano": "botika", "kapampangan": "botika", "waray": "botika" }
+    },
+    {
+      "english": "restaurant", "filipino": "restawran",
+      "asl_gif": "/static/ASL_GIFS/places/restaurant.gif", "fsl_gif": "/static/FSL_GIFS/places/restawran.gif",
+      "translations": { "bicolano": "restawran", "cebuano": "kaonan", "hiligaynon": "kalan-an",
+                        "ilocano": "panganan", "kapampangan": "restawran", "waray": "restawran" }
+    }
+  ],
+  "Food and Drinks": [
+    {
+      "english": "breakfast", "filipino": "almusal",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/breakfast.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/almusal.gif",
+      "translations": { "bicolano": "agahan", "cebuano": "pamahaw", "hiligaynon": "pamahan",
+                        "ilocano": "pang-agsapa", "kapampangan": "almusal", "waray": "pamahaw" }
+    },
+    {
+      "english": "lunch", "filipino": "tanghalian",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/lunch.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/tanghalian.gif",
+      "translations": { "bicolano": "pangmudtu", "cebuano": "paniudto", "hiligaynon": "panyaga",
+                        "ilocano": "pang-aldaw", "kapampangan": "tanghalian", "waray": "paningudto" }
+    },
+    {
+      "english": "dinner", "filipino": "hapunan",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/dinner.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/hapunan.gif",
+      "translations": { "bicolano": "panggabiha", "cebuano": "panihapon", "hiligaynon": "panyapon",
+                        "ilocano": "pangrabi-i", "kapampangan": "hapunan", "waray": "panigab-i" }
+    },
+    {
+      "english": "meat", "filipino": "karne",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/meat.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/karne.gif",
+      "translations": { "bicolano": "karne", "cebuano": "karne", "hiligaynon": "karne",
+                        "ilocano": "karne", "kapampangan": "karne", "waray": "karne" }
+    },
+    {
+      "english": "milk", "filipino": "gatas",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/milk.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/gatas.gif",
+      "translations": { "bicolano": "gatas", "cebuano": "gatas", "hiligaynon": "gatas",
+                        "ilocano": "gatas", "kapampangan": "gatas", "waray": "gatas" }
+    },
+    {
+      "english": "water", "filipino": "tubig",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/water.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/tubig.gif",
+      "translations": { "bicolano": "tubig", "cebuano": "tubig", "hiligaynon": "tubi",
+                        "ilocano": "danum", "kapampangan": "danum", "waray": "tubig" }
+    },
+    {
+      "english": "juice", "filipino": "juice",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/juice.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/juice.gif",
+      "translations": { "bicolano": "juice", "cebuano": "juice", "hiligaynon": "duga",
+                        "ilocano": "juice", "kapampangan": "juice", "waray": "juice" }
+    },
+    {
+      "english": "rice", "filipino": "kanin",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/rice.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/kanin.gif",
+      "translations": { "bicolano": "kanun", "cebuano": "kan-on", "hiligaynon": "bugas",
+                        "ilocano": "inapuy", "kapampangan": "nasi", "waray": "kan-on" }
+    },
+    {
+      "english": "egg", "filipino": "itlog",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/egg.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/itlog.gif",
+      "translations": { "bicolano": "itlog", "cebuano": "itlog", "hiligaynon": "itlog",
+                        "ilocano": "itlog", "kapampangan": "ebun", "waray": "bonay" }
+    },
+    {
+      "english": "bread", "filipino": "tinapay",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/bread.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/tinapay.gif",
+      "translations": { "bicolano": "tinapay", "cebuano": "pan", "hiligaynon": "tinapay",
+                        "ilocano": "tinapay", "kapampangan": "tinape", "waray": "tinapay" }
+    },
+    {
+      "english": "food", "filipino": "pagkain",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/food.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/pagkain.gif",
+      "translations": { "bicolano": "pagkaon", "cebuano": "pagkaon", "hiligaynon": "pagkaon",
+                        "ilocano": "makan", "kapampangan": "pamangan", "waray": "pagkaon" }
+    },
+    {
+      "english": "vegetables", "filipino": "gulay",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/vegetables.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/gulay.gif",
+      "translations": { "bicolano": "gulay", "cebuano": "utan", "hiligaynon": "utan",
+                        "ilocano": "gulay", "kapampangan": "gule", "waray": "utan" }
+    },
+    {
+      "english": "fruits", "filipino": "prutas",
+      "asl_gif": "/static/ASL_GIFS/food and drinks/fruits.gif", "fsl_gif": "/static/FSL_GIFS/food and drinks/prutas.gif",
+      "translations": { "bicolano": "prutas", "cebuano": "prutas", "hiligaynon": "prutas",
+                        "ilocano": "prutas", "kapampangan": "prutas", "waray": "prutas" }
+    }
+  ],
+  "Animals": [
+    {
+      "english": "dog", "filipino": "aso",
+      "asl_gif": "/static/ASL_GIFS/animals/dog.gif", "fsl_gif": "/static/FSL_GIFS/animals/aso.gif",
+      "translations": { "bicolano": "ayam", "cebuano": "iro", "hiligaynon": "ido",
+                        "ilocano": "aso", "kapampangan": "asu", "waray": "ayam" }
+    },
+    {
+      "english": "cat", "filipino": "pusa",
+      "asl_gif": "/static/ASL_GIFS/animals/cat.gif", "fsl_gif": "/static/FSL_GIFS/animals/pusa.gif",
+      "translations": { "bicolano": "upos", "cebuano": "iring", "hiligaynon": "kutung",
+                        "ilocano": "pusa", "kapampangan": "pusa", "waray": "uding" }
+    },
+    {
+      "english": "bird", "filipino": "ibon",
+      "asl_gif": "/static/ASL_GIFS/animals/bird.gif", "fsl_gif": "/static/FSL_GIFS/animals/ibon.gif",
+      "translations": { "bicolano": "bayong", "cebuano": "langgam", "hiligaynon": "pispis",
+                        "ilocano": "billit", "kapampangan": "ibun", "waray": "tamsi" }
+    },
+    {
+      "english": "duck", "filipino": "bibe",
+      "asl_gif": "/static/ASL_GIFS/animals/duck.gif", "fsl_gif": "/static/FSL_GIFS/animals/bibe.gif",
+      "translations": { "bicolano": "pato", "cebuano": "pato", "hiligaynon": "pato",
+                        "ilocano": "pato", "kapampangan": "bibe", "waray": "pato" }
+    },
+    {
+      "english": "chicken", "filipino": "manok",
+      "asl_gif": "/static/ASL_GIFS/animals/chicken.gif", "fsl_gif": "/static/FSL_GIFS/animals/manok.gif",
+      "translations": { "bicolano": "manok", "cebuano": "manok", "hiligaynon": "manok",
+                        "ilocano": "manok", "kapampangan": "manuk", "waray": "manok" }
+    },
+    {
+      "english": "cow", "filipino": "baka",
+      "asl_gif": "/static/ASL_GIFS/animals/cow.gif", "fsl_gif": "/static/FSL_GIFS/animals/baka.gif",
+      "translations": { "bicolano": "baka", "cebuano": "baka", "hiligaynon": "baka",
+                        "ilocano": "baka", "kapampangan": "baka", "waray": "baka" }
+    },
+    {
+      "english": "horse", "filipino": "kabayo",
+      "asl_gif": "/static/ASL_GIFS/animals/horse.gif", "fsl_gif": "/static/FSL_GIFS/animals/kabayo.gif",
+      "translations": { "bicolano": "kabayo", "cebuano": "kabayo", "hiligaynon": "kabayo",
+                        "ilocano": "kabalyo", "kapampangan": "kabayu", "waray": "kabayo" }
+    },
+    {
+      "english": "pig", "filipino": "baboy",
+      "asl_gif": "/static/ASL_GIFS/animals/pig.gif", "fsl_gif": "/static/FSL_GIFS/animals/baboy.gif",
+      "translations": { "bicolano": "baktin", "cebuano": "baboy", "hiligaynon": "baboy",
+                        "ilocano": "baboy", "kapampangan": "babi", "waray": "baboy" }
+    },
+    {
+      "english": "monkey", "filipino": "unggoy",
+      "asl_gif": "/static/ASL_GIFS/animals/monkey.gif", "fsl_gif": "/static/FSL_GIFS/animals/unggoy.gif",
+      "translations": { "bicolano": "unggoy", "cebuano": "unggoy", "hiligaynon": "amo",
+                        "ilocano": "bakes", "kapampangan": "unggoy", "waray": "amo" }
+    },
+    {
+      "english": "fish", "filipino": "isda",
+      "asl_gif": "/static/ASL_GIFS/animals/fish.gif", "fsl_gif": "/static/FSL_GIFS/animals/isda.gif",
+      "translations": { "bicolano": "isura", "cebuano": "isda", "hiligaynon": "isda",
+                        "ilocano": "lames", "kapampangan": "asan", "waray": "isda" }
+    }
+  ],
+  "Colors": [
+    {
+      "english": "color", "filipino": "kulay",
+      "asl_gif": "/static/ASL_GIFS/colors/color.gif", "fsl_gif": "/static/FSL_GIFS/colors/kulay.gif",
+      "translations": { "bicolano": "kulay", "cebuano": "kolor", "hiligaynon": "duag",
+                        "ilocano": "kulay", "kapampangan": "kule", "waray": "kolor" }
+    },
+    {
+      "english": "red", "filipino": "pula",
+      "asl_gif": "/static/ASL_GIFS/colors/red.gif", "fsl_gif": "/static/FSL_GIFS/colors/pula.gif",
+      "translations": { "bicolano": "pula", "cebuano": "pula", "hiligaynon": "pula",
+                        "ilocano": "nalabbaga", "kapampangan": "malutu", "waray": "pula" }
+    },
+    {
+      "english": "orange", "filipino": "kahel",
+      "asl_gif": "/static/ASL_GIFS/colors/orange.gif", "fsl_gif": "/static/FSL_GIFS/colors/kahel.gif",
+      "translations": { "bicolano": "kahel", "cebuano": "kahel", "hiligaynon": "kahel",
+                        "ilocano": "kahel", "kapampangan": "kahel", "waray": "kahel" }
+    },
+    {
+      "english": "yellow", "filipino": "dilaw",
+      "asl_gif": "/static/ASL_GIFS/colors/yellow.gif", "fsl_gif": "/static/FSL_GIFS/colors/dilaw.gif",
+      "translations": { "bicolano": "dilaw", "cebuano": "dalag", "hiligaynon": "dalag",
+                        "ilocano": "dilaw", "kapampangan": "dilo", "waray": "dilaw" }
+    },
+    {
+      "english": "green", "filipino": "berde",
+      "asl_gif": "/static/ASL_GIFS/colors/green.gif", "fsl_gif": "/static/FSL_GIFS/colors/berde.gif",
+      "translations": { "bicolano": "berde", "cebuano": "berde", "hiligaynon": "berde",
+                        "ilocano": "berde", "kapampangan": "berdi", "waray": "berde" }
+    },
+    {
+      "english": "blue", "filipino": "asul",
+      "asl_gif": "/static/ASL_GIFS/colors/blue.gif", "fsl_gif": "/static/FSL_GIFS/colors/asul.gif",
+      "translations": { "bicolano": "asul", "cebuano": "asul", "hiligaynon": "asul",
+                        "ilocano": "asul", "kapampangan": "asul", "waray": "asul" }
+    },
+    {
+      "english": "purple", "filipino": "ube",
+      "asl_gif": "/static/ASL_GIFS/colors/purple.gif", "fsl_gif": "/static/FSL_GIFS/colors/ube.gif",
+      "translations": { "bicolano": "ube", "cebuano": "ube", "hiligaynon": "violeta",
+                        "ilocano": "ube", "kapampangan": "ube", "waray": "bayolet" }
+    },
+    {
+      "english": "black", "filipino": "itim",
+      "asl_gif": "/static/ASL_GIFS/colors/black.gif", "fsl_gif": "/static/FSL_GIFS/colors/itim.gif",
+      "translations": { "bicolano": "itum", "cebuano": "itom", "hiligaynon": "itom",
+                        "ilocano": "nangisit", "kapampangan": "matuling", "waray": "itom" }
+    },
+    {
+      "english": "brown", "filipino": "kayumanggi",
+      "asl_gif": "/static/ASL_GIFS/colors/brown.gif", "fsl_gif": "/static/FSL_GIFS/colors/kayumanggi.gif",
+      "translations": { "bicolano": "kayumanggi", "cebuano": "brawn", "hiligaynon": "kaki",
+                        "ilocano": "kayumanggi", "kapampangan": "kayumanggi", "waray": "kayumanggi" }
+    },
+    {
+      "english": "pink", "filipino": "rosas",
+      "asl_gif": "/static/ASL_GIFS/colors/pink.gif", "fsl_gif": "/static/FSL_GIFS/colors/rosas.gif",
+      "translations": { "bicolano": "rosas", "cebuano": "rosas", "hiligaynon": "duag rosa",
+                        "ilocano": "rosas", "kapampangan": "rosas", "waray": "rosas" }
+    },
+    {
+      "english": "gray", "filipino": "abo",
+      "asl_gif": "/static/ASL_GIFS/colors/gray.gif", "fsl_gif": "/static/FSL_GIFS/colors/abo.gif",
+      "translations": { "bicolano": "abo", "cebuano": "abo", "hiligaynon": "abo",
+                        "ilocano": "abo", "kapampangan": "abu", "waray": "abo" }
+    },
+    {
+      "english": "white", "filipino": "puti",
+      "asl_gif": "/static/ASL_GIFS/colors/white.gif", "fsl_gif": "/static/FSL_GIFS/colors/puti.gif",
+      "translations": { "bicolano": "puti", "cebuano": "puti", "hiligaynon": "puti",
+                        "ilocano": "puraw", "kapampangan": "maputi", "waray": "busag" }
+    },
+    {
+      "english": "rainbow", "filipino": "bahaghari",
+      "asl_gif": "/static/ASL_GIFS/colors/rainbow.gif", "fsl_gif": "/static/FSL_GIFS/colors/bahaghari.gif",
+      "translations": { "bicolano": "bahaghari", "cebuano": "balangaw", "hiligaynon": "balangaw",
+                        "ilocano": "bahaghari", "kapampangan": "bahaghari", "waray": "bahaghari" }
+    }
+  ]
+}
